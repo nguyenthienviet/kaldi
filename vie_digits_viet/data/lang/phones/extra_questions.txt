@@ -1,0 +1,9 @@
+b_B a1_B aw4_B iz4_B oo3_B nc_B ch_B i3_B h_B iz1_B kh_B oo1_B ngz_B m_B oo6_B tc_B n_B aw1_B mc_B x_B a3_B uz3_B t_B 
+b_E a1_E aw4_E iz4_E oo3_E nc_E ch_E i3_E h_E iz1_E kh_E oo1_E ngz_E m_E oo6_E tc_E n_E aw1_E mc_E x_E a3_E uz3_E t_E 
+b_I a1_I aw4_I iz4_I oo3_I nc_I ch_I i3_I h_I iz1_I kh_I oo1_I ngz_I m_I oo6_I tc_I n_I aw1_I mc_I x_I a3_I uz3_I t_I 
+b_S a1_S aw4_S iz4_S oo3_S nc_S ch_S i3_S h_S iz1_S kh_S oo1_S ngz_S m_S oo6_S tc_S n_S aw1_S mc_S x_S a3_S uz3_S t_S 
+sil spn 
+sil_B spn_B 
+sil_E spn_E 
+sil_I spn_I 
+sil_S spn_S 

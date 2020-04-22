@@ -1,0 +1,1008 @@
+# lattice-best-path --lm-scale=13 --word-symbol-table=exp/mono/graph/words.txt "ark:gunzip -c exp/mono/decode/lat.*.gz|" ark,t:exp/mono/decode/scoring/13.tra 
+# Started at Mon Apr 20 03:11:00 PDT 2020
+#
+lattice-best-path --lm-scale=13 --word-symbol-table=exp/mono/graph/words.txt 'ark:gunzip -c exp/mono/decode/lat.*.gz|' ark,t:exp/mono/decode/scoring/13.tra 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_0, best cost 116.079 + 3734.53 = 3850.61 over 33 frames.
+dan_0_0 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_1, best cost 115.761 + 4133.33 = 4249.09 over 33 frames.
+dan_0_1 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_10, best cost 118.62 + 8542.01 = 8660.63 over 84 frames.
+dan_0_10 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_11, best cost 115.998 + 4095.11 = 4211.11 over 33 frames.
+dan_0_11 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_12, best cost 116.551 + 3858.26 = 3974.81 over 33 frames.
+dan_0_12 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_13, best cost 115.701 + 3859.13 = 3974.83 over 31 frames.
+dan_0_13 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_14, best cost 116.65 + 4040.18 = 4156.83 over 36 frames.
+dan_0_14 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_15, best cost 117.885 + 4081.91 = 4199.8 over 34 frames.
+dan_0_15 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_16, best cost 117.712 + 4020.22 = 4137.93 over 34 frames.
+dan_0_16 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_17, best cost 54.0633 + 4527.31 = 4581.37 over 35 frames.
+dan_0_17 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_18, best cost 148.019 + 8923.8 = 9071.82 over 82 frames.
+dan_0_18 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_19, best cost 115.55 + 3450.46 = 3566.01 over 30 frames.
+dan_0_19 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_2, best cost 51.4097 + 3885.29 = 3936.7 over 31 frames.
+dan_0_2 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_20, best cost 117.432 + 4247.11 = 4364.54 over 34 frames.
+dan_0_20 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_21, best cost 192.573 + 16122.4 = 16315 over 154 frames.
+dan_0_21 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_22, best cost 116.836 + 4409.34 = 4526.18 over 38 frames.
+dan_0_22 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_23, best cost 184.559 + 14153.2 = 14337.7 over 142 frames.
+dan_0_23 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_24, best cost 117.135 + 3739.44 = 3856.58 over 32 frames.
+dan_0_24 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_25, best cost 116.163 + 3517.57 = 3633.74 over 29 frames.
+dan_0_25 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_26, best cost 114.319 + 3366.48 = 3480.8 over 27 frames.
+dan_0_26 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_27, best cost 115.593 + 3317.93 = 3433.53 over 27 frames.
+dan_0_27 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_28, best cost 115.459 + 3667.91 = 3783.37 over 30 frames.
+dan_0_28 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_29, best cost 116.411 + 3695.11 = 3811.52 over 30 frames.
+dan_0_29 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_3, best cost 50.0459 + 3564.29 = 3614.34 over 28 frames.
+dan_0_3 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_30, best cost 116.319 + 3718.62 = 3834.94 over 32 frames.
+dan_0_30 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_31, best cost 116.069 + 3479.08 = 3595.15 over 28 frames.
+dan_0_31 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_32, best cost 121.683 + 8763.32 = 8885 over 67 frames.
+dan_0_32 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_33, best cost 116.084 + 3514.52 = 3630.61 over 29 frames.
+dan_0_33 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_34, best cost 114.826 + 3331.77 = 3446.6 over 29 frames.
+dan_0_34 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_35, best cost 113.738 + 3083.35 = 3197.09 over 26 frames.
+dan_0_35 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_36, best cost 115.502 + 3257.36 = 3372.86 over 27 frames.
+dan_0_36 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_37, best cost 115.278 + 3330.96 = 3446.24 over 28 frames.
+dan_0_37 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_38, best cost 114.782 + 3046.82 = 3161.6 over 27 frames.
+dan_0_38 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_39, best cost 115.553 + 3306.27 = 3421.82 over 29 frames.
+dan_0_39 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_4, best cost 116.683 + 4159.48 = 4276.16 over 34 frames.
+dan_0_4 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_40, best cost 115.629 + 3442.03 = 3557.65 over 29 frames.
+dan_0_40 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_41, best cost 115.101 + 3475.91 = 3591.01 over 29 frames.
+dan_0_41 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_42, best cost 114.612 + 3156.02 = 3270.64 over 27 frames.
+dan_0_42 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_43, best cost 115.882 + 3426.63 = 3542.52 over 29 frames.
+dan_0_43 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_44, best cost 114.939 + 3263.79 = 3378.73 over 26 frames.
+dan_0_44 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_45, best cost 114.675 + 3275.4 = 3390.08 over 26 frames.
+dan_0_45 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_46, best cost 115.32 + 3374.27 = 3489.59 over 28 frames.
+dan_0_46 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_47, best cost 114.742 + 3502.57 = 3617.31 over 29 frames.
+dan_0_47 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_48, best cost 114.106 + 3250.71 = 3364.82 over 27 frames.
+dan_0_48 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_49, best cost 131.987 + 6174.08 = 6306.07 over 56 frames.
+dan_0_49 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_5, best cost 116.257 + 3816.95 = 3933.2 over 33 frames.
+dan_0_5 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_6, best cost 115.105 + 3460.27 = 3575.38 over 30 frames.
+dan_0_6 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_7, best cost 114.859 + 3570.75 = 3685.61 over 29 frames.
+dan_0_7 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_8, best cost 113.923 + 3138.63 = 3252.55 over 29 frames.
+dan_0_8 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_0_9, best cost 93.6011 + 4306.17 = 4399.78 over 38 frames.
+dan_0_9 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_0, best cost 48.7861 + 2817.09 = 2865.88 over 19 frames.
+dan_1_0 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_1, best cost 47.8307 + 2466.54 = 2514.37 over 18 frames.
+dan_1_1 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_10, best cost 91.7989 + 3313.68 = 3405.48 over 26 frames.
+dan_1_10 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_11, best cost 108.041 + 4317.84 = 4425.88 over 35 frames.
+dan_1_11 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_12, best cost 88.8848 + 2925.93 = 3014.81 over 21 frames.
+dan_1_12 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_13, best cost 88.2235 + 3025.91 = 3114.13 over 22 frames.
+dan_1_13 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_14, best cost 89.123 + 2753.33 = 2842.46 over 21 frames.
+dan_1_14 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_15, best cost 87.4834 + 2010.76 = 2098.25 over 16 frames.
+dan_1_15 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_16, best cost 90.4406 + 3278.67 = 3369.11 over 24 frames.
+dan_1_16 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_17, best cost 105.766 + 3920.85 = 4026.62 over 32 frames.
+dan_1_17 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_18, best cost 89.9637 + 3178.37 = 3268.34 over 23 frames.
+dan_1_18 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_19, best cost 92.845 + 3646.56 = 3739.41 over 26 frames.
+dan_1_19 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_2, best cost 115.872 + 3652.82 = 3768.69 over 32 frames.
+dan_1_2 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_20, best cost 107.156 + 8246.07 = 8353.23 over 76 frames.
+dan_1_20 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_21, best cost 59.1741 + 4267.48 = 4326.65 over 29 frames.
+dan_1_21 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_22, best cost 49.8155 + 2797.81 = 2847.63 over 22 frames.
+dan_1_22 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_23, best cost 90.4533 + 3425.89 = 3516.34 over 24 frames.
+dan_1_23 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_24, best cost 50.1023 + 3145.12 = 3195.22 over 23 frames.
+dan_1_24 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_25, best cost 49.8155 + 3359.22 = 3409.04 over 22 frames.
+dan_1_25 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_26, best cost 56.5247 + 3642.83 = 3699.36 over 25 frames.
+dan_1_26 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_27, best cost 48.9818 + 3260.6 = 3309.58 over 22 frames.
+dan_1_27 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_28, best cost 49.859 + 3044.71 = 3094.56 over 21 frames.
+dan_1_28 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_29, best cost 53.4952 + 6809.58 = 6863.08 over 55 frames.
+dan_1_29 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_3, best cost 86.0437 + 2487.4 = 2573.44 over 19 frames.
+dan_1_3 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_30, best cost 55.0894 + 7499.37 = 7554.46 over 64 frames.
+dan_1_30 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_31, best cost 48.9818 + 3276.28 = 3325.26 over 22 frames.
+dan_1_31 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_32, best cost 98.3808 + 10853.5 = 10951.9 over 101 frames.
+dan_1_32 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_33, best cost 49.681 + 3580.36 = 3630.04 over 25 frames.
+dan_1_33 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_34, best cost 47.8741 + 2213.28 = 2261.15 over 17 frames.
+dan_1_34 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_35, best cost 161.899 + 10789.4 = 10951.3 over 103 frames.
+dan_1_35 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_36, best cost 54.4095 + 3582.5 = 3636.91 over 24 frames.
+dan_1_36 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_37, best cost 54.5746 + 3451.67 = 3506.24 over 24 frames.
+dan_1_37 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_38, best cost 53.3283 + 3279.09 = 3332.42 over 22 frames.
+dan_1_38 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_39, best cost 109.005 + 3268.97 = 3377.97 over 22 frames.
+dan_1_39 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_4, best cost 90.1595 + 3019.28 = 3109.44 over 22 frames.
+dan_1_4 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_40, best cost 49.2379 + 2843.89 = 2893.13 over 20 frames.
+dan_1_40 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_41, best cost 86.6416 + 2527.16 = 2613.8 over 18 frames.
+dan_1_41 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_42, best cost 102.107 + 3535.78 = 3637.89 over 27 frames.
+dan_1_42 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_43, best cost 47.4963 + 2658.22 = 2705.72 over 18 frames.
+dan_1_43 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_44, best cost 89.5255 + 2885.53 = 2975.06 over 21 frames.
+dan_1_44 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_45, best cost 48.3736 + 2349.81 = 2398.19 over 17 frames.
+dan_1_45 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_46, best cost 47.1314 + 2068.39 = 2115.52 over 15 frames.
+dan_1_46 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_47, best cost 88.6229 + 2690.55 = 2779.17 over 20 frames.
+dan_1_47 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_48, best cost 49.2379 + 2861.47 = 2910.71 over 20 frames.
+dan_1_48 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_49, best cost 125.625 + 6214.63 = 6340.25 over 52 frames.
+dan_1_49 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_5, best cost 94.0817 + 3144.69 = 3238.77 over 23 frames.
+dan_1_5 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_6, best cost 48.1174 + 2859.23 = 2907.35 over 19 frames.
+dan_1_6 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_7, best cost 90.185 + 3116.82 = 3207 over 24 frames.
+dan_1_7 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_8, best cost 107.786 + 2953.47 = 3061.26 over 21 frames.
+dan_1_8 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_1_9, best cost 88.8459 + 2392.92 = 2481.76 over 18 frames.
+dan_1_9 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_0, best cost 165.147 + 13468.9 = 13634 over 136 frames.
+dan_2_0 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_1, best cost 93.3832 + 4330.42 = 4423.81 over 37 frames.
+dan_2_1 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_10, best cost 114.135 + 4461.24 = 4575.38 over 38 frames.
+dan_2_10 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_11, best cost 94.555 + 4098.65 = 4193.2 over 37 frames.
+dan_2_11 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_12, best cost 96.8502 + 3712.29 = 3809.14 over 34 frames.
+dan_2_12 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_13, best cost 102.37 + 4026 = 4128.37 over 37 frames.
+dan_2_13 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_14, best cost 97.3633 + 3903.83 = 4001.19 over 36 frames.
+dan_2_14 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_15, best cost 92.6757 + 4074.79 = 4167.46 over 38 frames.
+dan_2_15 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_16, best cost 92.5121 + 3693.44 = 3785.95 over 36 frames.
+dan_2_16 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_17, best cost 115.313 + 9312.77 = 9428.09 over 93 frames.
+dan_2_17 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_18, best cost 97.739 + 4607.14 = 4704.88 over 41 frames.
+dan_2_18 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_19, best cost 118.074 + 7163.41 = 7281.48 over 71 frames.
+dan_2_19 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_2, best cost 93.3401 + 4295.27 = 4388.61 over 37 frames.
+dan_2_2 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_20, best cost 108.326 + 6151.38 = 6259.71 over 53 frames.
+dan_2_20 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_21, best cost 100.034 + 4507.28 = 4607.31 over 40 frames.
+dan_2_21 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_22, best cost 96.9332 + 4375.15 = 4472.09 over 41 frames.
+dan_2_22 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_23, best cost 93.5978 + 3943.51 = 4037.11 over 38 frames.
+dan_2_23 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_24, best cost 93.5778 + 4250.82 = 4344.39 over 41 frames.
+dan_2_24 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_25, best cost 98.5179 + 4093.37 = 4191.89 over 36 frames.
+dan_2_25 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_26, best cost 94.2368 + 4107.81 = 4202.05 over 39 frames.
+dan_2_26 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_27, best cost 93.0349 + 4224.78 = 4317.82 over 40 frames.
+dan_2_27 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_28, best cost 107.808 + 4549.83 = 4657.64 over 44 frames.
+dan_2_28 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_29, best cost 94.0433 + 4418.51 = 4512.56 over 42 frames.
+dan_2_29 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_3, best cost 93.8818 + 4463.3 = 4557.18 over 39 frames.
+dan_2_3 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_30, best cost 102.435 + 4578.56 = 4681 over 43 frames.
+dan_2_30 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_31, best cost 94.2589 + 4218.84 = 4313.09 over 41 frames.
+dan_2_31 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_32, best cost 94.1039 + 4511.58 = 4605.69 over 41 frames.
+dan_2_32 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_33, best cost 94.0943 + 4516.91 = 4611.01 over 41 frames.
+dan_2_33 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_34, best cost 94.2674 + 4402.91 = 4497.17 over 42 frames.
+dan_2_34 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_35, best cost 97.7809 + 4786.66 = 4884.44 over 42 frames.
+dan_2_35 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_36, best cost 121.9 + 5041.91 = 5163.81 over 45 frames.
+dan_2_36 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_37, best cost 95.6824 + 4160.99 = 4256.67 over 39 frames.
+dan_2_37 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_38, best cost 100.11 + 4195.58 = 4295.69 over 40 frames.
+dan_2_38 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_39, best cost 93.3567 + 3828.32 = 3921.68 over 36 frames.
+dan_2_39 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_4, best cost 96.1404 + 4734.6 = 4830.74 over 39 frames.
+dan_2_4 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_40, best cost 121.615 + 6066.59 = 6188.2 over 56 frames.
+dan_2_40 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_41, best cost 130.624 + 7035.52 = 7166.14 over 67 frames.
+dan_2_41 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_42, best cost 93.39 + 4263.45 = 4356.84 over 38 frames.
+dan_2_42 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_43, best cost 93.1268 + 3740.79 = 3833.91 over 34 frames.
+dan_2_43 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_44, best cost 92.8129 + 4033.97 = 4126.78 over 36 frames.
+dan_2_44 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_45, best cost 99.9705 + 3757.64 = 3857.61 over 32 frames.
+dan_2_45 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_46, best cost 117.008 + 3764.96 = 3881.97 over 33 frames.
+dan_2_46 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_47, best cost 94.0687 + 3910.14 = 4004.21 over 35 frames.
+dan_2_47 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_48, best cost 94.5558 + 3719.69 = 3814.25 over 34 frames.
+dan_2_48 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_49, best cost 94.2278 + 3934.13 = 4028.35 over 34 frames.
+dan_2_49 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_5, best cost 93.7338 + 4157.26 = 4250.99 over 38 frames.
+dan_2_5 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_6, best cost 96.0742 + 4170.2 = 4266.27 over 39 frames.
+dan_2_6 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_7, best cost 96.8715 + 4190.83 = 4287.7 over 37 frames.
+dan_2_7 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_8, best cost 99.8571 + 3939.52 = 4039.37 over 37 frames.
+dan_2_8 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_2_9, best cost 99.2591 + 3596.61 = 3695.87 over 34 frames.
+dan_2_9 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_0, best cost 149.454 + 12532.9 = 12682.4 over 127 frames.
+dan_3_0 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_1, best cost 86.0287 + 3362.95 = 3448.98 over 32 frames.
+dan_3_1 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_10, best cost 93.2836 + 3909.61 = 4002.9 over 38 frames.
+dan_3_10 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_11, best cost 97.7849 + 4130.33 = 4228.11 over 41 frames.
+dan_3_11 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_12, best cost 112.199 + 5288.07 = 5400.27 over 53 frames.
+dan_3_12 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_13, best cost 134.892 + 12493 = 12627.8 over 127 frames.
+dan_3_13 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_14, best cost 98.4393 + 4059.47 = 4157.91 over 39 frames.
+dan_3_14 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_15, best cost 110.075 + 4571.41 = 4681.48 over 44 frames.
+dan_3_15 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_16, best cost 129.072 + 7329.4 = 7458.48 over 75 frames.
+dan_3_16 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_17, best cost 96.1376 + 3546.71 = 3642.85 over 35 frames.
+dan_3_17 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_18, best cost 93.4166 + 3490.76 = 3584.17 over 35 frames.
+dan_3_18 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_19, best cost 91.2104 + 3560.55 = 3651.76 over 36 frames.
+dan_3_19 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_2, best cost 85.8864 + 3331.8 = 3417.69 over 32 frames.
+dan_3_2 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_20, best cost 136.908 + 8292.03 = 8428.94 over 86 frames.
+dan_3_20 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_21, best cost 90.9247 + 3208.94 = 3299.86 over 31 frames.
+dan_3_21 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_22, best cost 93.3025 + 3890.41 = 3983.71 over 39 frames.
+dan_3_22 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_23, best cost 87.1152 + 3643.53 = 3730.64 over 36 frames.
+dan_3_23 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_24, best cost 126.173 + 18258.9 = 18385.1 over 198 frames.
+dan_3_24 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_25, best cost 87.3651 + 4018.18 = 4105.54 over 39 frames.
+dan_3_25 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_26, best cost 118.317 + 4281.63 = 4399.95 over 39 frames.
+dan_3_26 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_27, best cost 89.5369 + 3916.67 = 4006.2 over 39 frames.
+dan_3_27 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_28, best cost 115.787 + 5645.33 = 5761.12 over 54 frames.
+dan_3_28 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_29, best cost 106.254 + 4005.21 = 4111.47 over 37 frames.
+dan_3_29 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_3, best cost 87.9928 + 3918.5 = 4006.5 over 35 frames.
+dan_3_3 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_30, best cost 89.1629 + 3736.85 = 3826.02 over 35 frames.
+dan_3_30 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_31, best cost 95.2197 + 3631.15 = 3726.37 over 35 frames.
+dan_3_31 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_32, best cost 87.0511 + 3783.22 = 3870.27 over 36 frames.
+dan_3_32 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_33, best cost 95.6013 + 3536.56 = 3632.16 over 36 frames.
+dan_3_33 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_34, best cost 95.9744 + 3736.84 = 3832.81 over 37 frames.
+dan_3_34 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_35, best cost 94.3274 + 3863.99 = 3958.32 over 38 frames.
+dan_3_35 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_36, best cost 133.17 + 8263.95 = 8397.12 over 85 frames.
+dan_3_36 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_37, best cost 90.0755 + 3239.48 = 3329.56 over 33 frames.
+dan_3_37 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_38, best cost 91.0564 + 3373.8 = 3464.85 over 33 frames.
+dan_3_38 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_39, best cost 95.4906 + 3806.05 = 3901.54 over 37 frames.
+dan_3_39 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_4, best cost 152.196 + 8990.21 = 9142.41 over 80 frames.
+dan_3_4 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_40, best cost 95.0376 + 4065.49 = 4160.53 over 39 frames.
+dan_3_40 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_41, best cost 92.9643 + 3368.27 = 3461.24 over 31 frames.
+dan_3_41 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_42, best cost 87.1338 + 4187.04 = 4274.17 over 38 frames.
+dan_3_42 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_43, best cost 119.428 + 6473.06 = 6592.49 over 63 frames.
+dan_3_43 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_44, best cost 94.155 + 3710.54 = 3804.69 over 36 frames.
+dan_3_44 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_45, best cost 91.8146 + 3851.21 = 3943.02 over 34 frames.
+dan_3_45 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_46, best cost 89.5919 + 3226.56 = 3316.15 over 30 frames.
+dan_3_46 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_47, best cost 95.848 + 3713.08 = 3808.93 over 36 frames.
+dan_3_47 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_48, best cost 90.328 + 3691.38 = 3781.71 over 36 frames.
+dan_3_48 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_49, best cost 156.137 + 11919.1 = 12075.2 over 119 frames.
+dan_3_49 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_5, best cost 110.024 + 6562.96 = 6672.98 over 68 frames.
+dan_3_5 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_6, best cost 95.1198 + 3489.16 = 3584.28 over 34 frames.
+dan_3_6 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_7, best cost 95.0125 + 3684.89 = 3779.9 over 35 frames.
+dan_3_7 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_8, best cost 116.105 + 8207.4 = 8323.5 over 85 frames.
+dan_3_8 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_3_9, best cost 95.4727 + 3919.52 = 4014.99 over 39 frames.
+dan_3_9 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_0, best cost 92.1637 + 3699.23 = 3791.4 over 32 frames.
+dan_4_0 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_1, best cost 92.1493 + 3929.7 = 4021.85 over 34 frames.
+dan_4_1 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_10, best cost 91.5409 + 3637.99 = 3729.54 over 34 frames.
+dan_4_10 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_11, best cost 92.9302 + 3675.08 = 3768.01 over 35 frames.
+dan_4_11 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_12, best cost 93.0918 + 3645.96 = 3739.05 over 35 frames.
+dan_4_12 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_13, best cost 92.7125 + 3862.3 = 3955.01 over 37 frames.
+dan_4_13 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_14, best cost 92.8529 + 3414.46 = 3507.32 over 33 frames.
+dan_4_14 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_15, best cost 93.2689 + 4098.85 = 4192.11 over 36 frames.
+dan_4_15 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_16, best cost 92.7058 + 3888.35 = 3981.06 over 35 frames.
+dan_4_16 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_17, best cost 93.8558 + 4586.94 = 4680.79 over 38 frames.
+dan_4_17 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_18, best cost 93.0396 + 3914.11 = 4007.15 over 35 frames.
+dan_4_18 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_19, best cost 92.0437 + 3628.54 = 3720.59 over 31 frames.
+dan_4_19 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_2, best cost 94.3267 + 4589.91 = 4684.24 over 39 frames.
+dan_4_2 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_20, best cost 115.015 + 6613.15 = 6728.17 over 63 frames.
+dan_4_20 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_21, best cost 93.4633 + 3876.7 = 3970.16 over 35 frames.
+dan_4_21 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_22, best cost 107.854 + 5369.85 = 5477.7 over 51 frames.
+dan_4_22 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_23, best cost 92.8357 + 3726.67 = 3819.5 over 34 frames.
+dan_4_23 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_24, best cost 93.951 + 4133.29 = 4227.24 over 38 frames.
+dan_4_24 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_25, best cost 94.5426 + 4379.17 = 4473.71 over 40 frames.
+dan_4_25 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_26, best cost 93.4398 + 3981.24 = 4074.68 over 38 frames.
+dan_4_26 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_27, best cost 140.617 + 4484.35 = 4624.97 over 39 frames.
+dan_4_27 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_28, best cost 109.228 + 5417.62 = 5526.85 over 47 frames.
+dan_4_28 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_29, best cost 109.905 + 4390.25 = 4500.16 over 34 frames.
+dan_4_29 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_3, best cost 92.7019 + 3706.65 = 3799.35 over 32 frames.
+dan_4_3 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_30, best cost 92.9335 + 4013.68 = 4106.61 over 35 frames.
+dan_4_30 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_31, best cost 93.502 + 4129.09 = 4222.59 over 36 frames.
+dan_4_31 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_32, best cost 92.8138 + 3853.55 = 3946.36 over 34 frames.
+dan_4_32 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_33, best cost 92.8823 + 3830.26 = 3923.14 over 33 frames.
+dan_4_33 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_34, best cost 136.01 + 7686.88 = 7822.89 over 72 frames.
+dan_4_34 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_35, best cost 107.173 + 4264.13 = 4371.3 over 35 frames.
+dan_4_35 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_36, best cost 91.2701 + 3930.76 = 4022.03 over 31 frames.
+dan_4_36 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_37, best cost 93.8077 + 4170.41 = 4264.21 over 37 frames.
+dan_4_37 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_38, best cost 93.8134 + 4677.02 = 4770.83 over 39 frames.
+dan_4_38 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_39, best cost 105.663 + 4313.33 = 4419 over 36 frames.
+dan_4_39 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_4, best cost 91.9026 + 3546.21 = 3638.11 over 33 frames.
+dan_4_4 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_40, best cost 117.294 + 5095.64 = 5212.93 over 38 frames.
+dan_4_40 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_41, best cost 93.2999 + 4167.44 = 4260.74 over 36 frames.
+dan_4_41 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_42, best cost 93.4404 + 4110.39 = 4203.83 over 36 frames.
+dan_4_42 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_43, best cost 93.9192 + 3873.32 = 3967.24 over 35 frames.
+dan_4_43 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_44, best cost 92.3223 + 3907.75 = 4000.07 over 34 frames.
+dan_4_44 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_45, best cost 91.5268 + 3574.15 = 3665.68 over 31 frames.
+dan_4_45 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_46, best cost 103.778 + 3404.48 = 3508.26 over 29 frames.
+dan_4_46 mot 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_47, best cost 92.1626 + 3558.25 = 3650.41 over 31 frames.
+dan_4_47 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_48, best cost 92.9068 + 4030.87 = 4123.78 over 34 frames.
+dan_4_48 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_49, best cost 92.2205 + 3551.44 = 3643.66 over 31 frames.
+dan_4_49 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_5, best cost 92.3085 + 3836.6 = 3928.91 over 36 frames.
+dan_4_5 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_6, best cost 92.8331 + 3746.18 = 3839.01 over 34 frames.
+dan_4_6 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_7, best cost 91.9144 + 3551.28 = 3643.19 over 33 frames.
+dan_4_7 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_8, best cost 92.5369 + 3898.3 = 3990.84 over 36 frames.
+dan_4_8 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_4_9, best cost 92.4394 + 3627.05 = 3719.49 over 34 frames.
+dan_4_9 bon 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_0, best cost 92.3546 + 3619.23 = 3711.58 over 30 frames.
+dan_5_0 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_1, best cost 170.206 + 7199.63 = 7369.84 over 68 frames.
+dan_5_1 ba nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_10, best cost 114.876 + 3357.04 = 3471.92 over 29 frames.
+dan_5_10 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_11, best cost 92.4162 + 3326.48 = 3418.89 over 29 frames.
+dan_5_11 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_12, best cost 49.1816 + 3056.96 = 3106.14 over 25 frames.
+dan_5_12 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_13, best cost 114.183 + 3273.66 = 3387.84 over 28 frames.
+dan_5_13 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_14, best cost 113.917 + 3157.77 = 3271.68 over 27 frames.
+dan_5_14 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_15, best cost 115.914 + 3727.58 = 3843.5 over 32 frames.
+dan_5_15 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_16, best cost 192.237 + 15767.7 = 15960 over 160 frames.
+dan_5_16 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_17, best cost 115.118 + 3371.8 = 3486.92 over 28 frames.
+dan_5_17 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_18, best cost 92.8112 + 3693.22 = 3786.03 over 32 frames.
+dan_5_18 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_19, best cost 106.127 + 4550.23 = 4656.35 over 39 frames.
+dan_5_19 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_2, best cost 92.2556 + 3370.72 = 3462.98 over 29 frames.
+dan_5_2 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_20, best cost 92.3336 + 3518.37 = 3610.71 over 30 frames.
+dan_5_20 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_21, best cost 93.2095 + 3923.43 = 4016.64 over 33 frames.
+dan_5_21 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_22, best cost 94.8633 + 4387.49 = 4482.35 over 39 frames.
+dan_5_22 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_23, best cost 93.0701 + 3710.89 = 3803.96 over 32 frames.
+dan_5_23 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_24, best cost 115.66 + 3910.8 = 4026.46 over 32 frames.
+dan_5_24 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_25, best cost 115.351 + 3761.04 = 3876.39 over 29 frames.
+dan_5_25 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_26, best cost 92.9094 + 3601.12 = 3694.03 over 31 frames.
+dan_5_26 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_27, best cost 93.4598 + 3929.83 = 4023.28 over 34 frames.
+dan_5_27 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_28, best cost 116.022 + 3766.69 = 3882.72 over 32 frames.
+dan_5_28 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_29, best cost 117.222 + 4054.09 = 4171.32 over 35 frames.
+dan_5_29 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_3, best cost 50.5801 + 3786.88 = 3837.46 over 31 frames.
+dan_5_3 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_30, best cost 123.439 + 10262.2 = 10385.6 over 103 frames.
+dan_5_30 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_31, best cost 49.868 + 3780.76 = 3830.62 over 32 frames.
+dan_5_31 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_32, best cost 93.388 + 3818.74 = 3912.13 over 32 frames.
+dan_5_32 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_33, best cost 151.882 + 3696.58 = 3848.46 over 32 frames.
+dan_5_33 ba nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_34, best cost 178.867 + 15453.6 = 15632.5 over 149 frames.
+dan_5_34 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_35, best cost 92.0786 + 3403.68 = 3495.76 over 29 frames.
+dan_5_35 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_36, best cost 91.7956 + 3350.38 = 3442.17 over 28 frames.
+dan_5_36 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_37, best cost 150.254 + 3352.64 = 3502.89 over 28 frames.
+dan_5_37 ba nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_38, best cost 150.487 + 9548.54 = 9699.03 over 93 frames.
+dan_5_38 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_39, best cost 171.621 + 14841.6 = 15013.2 over 143 frames.
+dan_5_39 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_4, best cost 92.9068 + 3645 = 3737.9 over 33 frames.
+dan_5_4 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_40, best cost 92.7859 + 3779.67 = 3872.45 over 31 frames.
+dan_5_40 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_41, best cost 118.017 + 4137.35 = 4255.36 over 35 frames.
+dan_5_41 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_42, best cost 91.4287 + 3275.66 = 3367.09 over 28 frames.
+dan_5_42 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_43, best cost 104.876 + 4270.33 = 4375.2 over 35 frames.
+dan_5_43 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_44, best cost 100.41 + 3221.54 = 3321.95 over 26 frames.
+dan_5_44 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_45, best cost 116.212 + 3557.93 = 3674.14 over 29 frames.
+dan_5_45 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_46, best cost 48.8038 + 3286.53 = 3335.34 over 26 frames.
+dan_5_46 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_47, best cost 113.051 + 3249.01 = 3362.06 over 27 frames.
+dan_5_47 tam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_48, best cost 113.712 + 3132.73 = 3246.44 over 26 frames.
+dan_5_48 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_49, best cost 113.21 + 3162.64 = 3275.85 over 25 frames.
+dan_5_49 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_5, best cost 115.077 + 3428.14 = 3543.22 over 30 frames.
+dan_5_5 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_6, best cost 90.694 + 3273.45 = 3364.15 over 27 frames.
+dan_5_6 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_7, best cost 115.605 + 3376.11 = 3491.71 over 29 frames.
+dan_5_7 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_8, best cost 114.466 + 3285.67 = 3400.14 over 28 frames.
+dan_5_8 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_5_9, best cost 115.04 + 3414.68 = 3529.73 over 29 frames.
+dan_5_9 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_0, best cost 96.206 + 4771.07 = 4867.27 over 38 frames.
+dan_6_0 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_1, best cost 117.265 + 6268.61 = 6385.87 over 42 frames.
+dan_6_1 tam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_10, best cost 94.9557 + 3823.97 = 3918.93 over 37 frames.
+dan_6_10 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_11, best cost 93.5793 + 4063.21 = 4156.78 over 37 frames.
+dan_6_11 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_12, best cost 127.019 + 6451.96 = 6578.98 over 61 frames.
+dan_6_12 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_13, best cost 107.105 + 4178.34 = 4285.45 over 40 frames.
+dan_6_13 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_14, best cost 94.8919 + 3571.38 = 3666.27 over 35 frames.
+dan_6_14 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_15, best cost 93.5942 + 4201.28 = 4294.87 over 38 frames.
+dan_6_15 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_16, best cost 93.6771 + 3683.42 = 3777.1 over 35 frames.
+dan_6_16 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_17, best cost 94.2422 + 4290.16 = 4384.4 over 41 frames.
+dan_6_17 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_18, best cost 93.6247 + 4323.95 = 4417.57 over 39 frames.
+dan_6_18 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_19, best cost 94.0394 + 4117.32 = 4211.36 over 37 frames.
+dan_6_19 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_2, best cost 96.7412 + 4712.31 = 4809.06 over 42 frames.
+dan_6_2 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_20, best cost 106.162 + 4465.79 = 4571.95 over 40 frames.
+dan_6_20 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_21, best cost 94.1778 + 4546.94 = 4641.12 over 43 frames.
+dan_6_21 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_22, best cost 94.8212 + 4598.5 = 4693.33 over 41 frames.
+dan_6_22 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_23, best cost 94.8642 + 4151.41 = 4246.27 over 40 frames.
+dan_6_23 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_24, best cost 96.0861 + 4346.71 = 4442.79 over 41 frames.
+dan_6_24 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_25, best cost 115.842 + 8989.18 = 9105.02 over 91 frames.
+dan_6_25 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_26, best cost 108.099 + 4531.04 = 4639.14 over 42 frames.
+dan_6_26 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_27, best cost 96.4539 + 4722.78 = 4819.23 over 44 frames.
+dan_6_27 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_28, best cost 96.2388 + 4567.2 = 4663.44 over 44 frames.
+dan_6_28 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_29, best cost 96.2768 + 4601.38 = 4697.66 over 43 frames.
+dan_6_29 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_3, best cost 152.693 + 13523.5 = 13676.2 over 136 frames.
+dan_6_3 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_30, best cost 95.4071 + 4496.27 = 4591.68 over 40 frames.
+dan_6_30 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_31, best cost 95.3656 + 4628.99 = 4724.35 over 43 frames.
+dan_6_31 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_32, best cost 133.424 + 7162.29 = 7295.72 over 69 frames.
+dan_6_32 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_33, best cost 95.0262 + 4301.83 = 4396.86 over 40 frames.
+dan_6_33 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_34, best cost 95.6963 + 4021.76 = 4117.45 over 39 frames.
+dan_6_34 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_35, best cost 105.657 + 3978.51 = 4084.17 over 38 frames.
+dan_6_35 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_36, best cost 122.998 + 5377.72 = 5500.72 over 50 frames.
+dan_6_36 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_37, best cost 95.1044 + 4122.46 = 4217.56 over 38 frames.
+dan_6_37 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_38, best cost 93.791 + 3942.14 = 4035.94 over 35 frames.
+dan_6_38 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_39, best cost 93.8556 + 3951.2 = 4045.06 over 36 frames.
+dan_6_39 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_4, best cost 96.0485 + 4653.48 = 4749.53 over 44 frames.
+dan_6_4 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_40, best cost 106.517 + 4004.66 = 4111.18 over 37 frames.
+dan_6_40 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_41, best cost 94.4429 + 4366.91 = 4461.35 over 39 frames.
+dan_6_41 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_42, best cost 94.7415 + 3912.42 = 4007.17 over 39 frames.
+dan_6_42 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_43, best cost 140.823 + 9827.77 = 9968.59 over 96 frames.
+dan_6_43 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_44, best cost 121.744 + 7556.89 = 7678.63 over 70 frames.
+dan_6_44 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_45, best cost 93.952 + 3893.84 = 3987.79 over 37 frames.
+dan_6_45 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_46, best cost 105.818 + 3905.17 = 4010.99 over 37 frames.
+dan_6_46 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_47, best cost 92.4857 + 2532.96 = 2625.45 over 24 frames.
+dan_6_47 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_48, best cost 95.1122 + 4313.32 = 4408.44 over 38 frames.
+dan_6_48 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_49, best cost 93.9513 + 3934.34 = 4028.29 over 36 frames.
+dan_6_49 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_5, best cost 120.496 + 7267.44 = 7387.94 over 66 frames.
+dan_6_5 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_6, best cost 95.4423 + 4563.22 = 4658.66 over 44 frames.
+dan_6_6 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_7, best cost 95.2635 + 4187.9 = 4283.16 over 41 frames.
+dan_6_7 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_8, best cost 95.0668 + 4099.68 = 4194.75 over 41 frames.
+dan_6_8 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_6_9, best cost 97.1455 + 4953.95 = 5051.09 over 44 frames.
+dan_6_9 sau 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_0, best cost 115.108 + 3837.23 = 3952.33 over 34 frames.
+dan_7_0 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_1, best cost 91.4324 + 3918.5 = 4009.93 over 35 frames.
+dan_7_1 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_10, best cost 135.805 + 3764.92 = 3900.72 over 32 frames.
+dan_7_10 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_11, best cost 101.727 + 4032.34 = 4134.07 over 35 frames.
+dan_7_11 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_12, best cost 124.103 + 3783.45 = 3907.55 over 32 frames.
+dan_7_12 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_13, best cost 103.048 + 4047.82 = 4150.86 over 36 frames.
+dan_7_13 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_14, best cost 142.4 + 9583.27 = 9725.67 over 87 frames.
+dan_7_14 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_15, best cost 91.5209 + 3823.22 = 3914.74 over 35 frames.
+dan_7_15 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_16, best cost 103.04 + 3613.34 = 3716.38 over 34 frames.
+dan_7_16 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_17, best cost 100.361 + 3365.7 = 3466.06 over 30 frames.
+dan_7_17 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_18, best cost 117.203 + 3689.64 = 3806.84 over 33 frames.
+dan_7_18 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_19, best cost 91.1549 + 3976.13 = 4067.28 over 35 frames.
+dan_7_19 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_2, best cost 101.468 + 3918.99 = 4020.46 over 33 frames.
+dan_7_2 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_20, best cost 118.264 + 3891.1 = 4009.36 over 35 frames.
+dan_7_20 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_21, best cost 192.401 + 16688.9 = 16881.3 over 165 frames.
+dan_7_21 hai ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_22, best cost 113.434 + 3976.79 = 4090.23 over 35 frames.
+dan_7_22 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_23, best cost 149.801 + 4356.08 = 4505.88 over 37 frames.
+dan_7_23 ba hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_24, best cost 149.442 + 4267.91 = 4417.35 over 38 frames.
+dan_7_24 ba hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_25, best cost 167.816 + 7451.37 = 7619.18 over 70 frames.
+dan_7_25 ba hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_26, best cost 113.072 + 4333.48 = 4446.56 over 36 frames.
+dan_7_26 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_27, best cost 164.045 + 5236.54 = 5400.59 over 49 frames.
+dan_7_27 ba hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_28, best cost 120.446 + 4457.86 = 4578.31 over 38 frames.
+dan_7_28 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_29, best cost 156.101 + 4662.66 = 4818.76 over 39 frames.
+dan_7_29 ba hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_3, best cost 89.6474 + 3293.61 = 3383.25 over 29 frames.
+dan_7_3 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_30, best cost 93.6245 + 4344.96 = 4438.59 over 36 frames.
+dan_7_30 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_31, best cost 119.727 + 7367.78 = 7487.51 over 69 frames.
+dan_7_31 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_32, best cost 167.749 + 7524.79 = 7692.54 over 73 frames.
+dan_7_32 ba hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_33, best cost 92.6692 + 4448.42 = 4541.09 over 38 frames.
+dan_7_33 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_34, best cost 149.182 + 4470.56 = 4619.74 over 37 frames.
+dan_7_34 ba hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_35, best cost 103.764 + 4364.63 = 4468.4 over 38 frames.
+dan_7_35 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_36, best cost 127.116 + 4695.51 = 4822.63 over 39 frames.
+dan_7_36 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_37, best cost 91.8461 + 3943.83 = 4035.68 over 33 frames.
+dan_7_37 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_38, best cost 116.59 + 4737.75 = 4854.34 over 41 frames.
+dan_7_38 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_39, best cost 119.513 + 4983.07 = 5102.59 over 44 frames.
+dan_7_39 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_4, best cost 90.9119 + 3611.39 = 3702.3 over 33 frames.
+dan_7_4 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_40, best cost 113.823 + 4174.31 = 4288.14 over 36 frames.
+dan_7_40 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_41, best cost 102.027 + 3837.54 = 3939.57 over 34 frames.
+dan_7_41 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_42, best cost 149.699 + 4402.97 = 4552.67 over 38 frames.
+dan_7_42 ba hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_43, best cost 113.622 + 4166.96 = 4280.59 over 36 frames.
+dan_7_43 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_44, best cost 130.495 + 4898.57 = 5029.06 over 44 frames.
+dan_7_44 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_45, best cost 103.119 + 4743.26 = 4846.38 over 41 frames.
+dan_7_45 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_46, best cost 137.244 + 4299.79 = 4437.04 over 37 frames.
+dan_7_46 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_47, best cost 93.6829 + 4399.05 = 4492.73 over 39 frames.
+dan_7_47 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_48, best cost 89.1015 + 3109.86 = 3198.97 over 28 frames.
+dan_7_48 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_49, best cost 92.3636 + 3432.43 = 3524.79 over 32 frames.
+dan_7_49 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_5, best cost 154.342 + 11266 = 11420.3 over 110 frames.
+dan_7_5 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_6, best cost 90.2129 + 3465.24 = 3555.45 over 31 frames.
+dan_7_6 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_7, best cost 90.4602 + 3519.09 = 3609.55 over 32 frames.
+dan_7_7 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_8, best cost 153.262 + 12055.3 = 12208.6 over 122 frames.
+dan_7_8 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_7_9, best cost 117.762 + 3721.96 = 3839.72 over 31 frames.
+dan_7_9 hai 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_0, best cost 115.278 + 3921.93 = 4037.21 over 36 frames.
+dan_8_0 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_1, best cost 121.349 + 7203.67 = 7325.02 over 70 frames.
+dan_8_1 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_10, best cost 131.263 + 6586.86 = 6718.12 over 61 frames.
+dan_8_10 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_11, best cost 182.983 + 14724.8 = 14907.8 over 147 frames.
+dan_8_11 tam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_12, best cost 115.754 + 4056.41 = 4172.16 over 36 frames.
+dan_8_12 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_13, best cost 116.223 + 4171.87 = 4288.09 over 37 frames.
+dan_8_13 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_14, best cost 49.0647 + 4147.71 = 4196.78 over 35 frames.
+dan_8_14 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_15, best cost 115.129 + 4093.64 = 4208.77 over 35 frames.
+dan_8_15 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_16, best cost 115.263 + 4450.99 = 4566.25 over 39 frames.
+dan_8_16 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_17, best cost 116.926 + 4450.46 = 4567.38 over 40 frames.
+dan_8_17 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_18, best cost 116.095 + 4285.18 = 4401.27 over 38 frames.
+dan_8_18 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_19, best cost 115.101 + 3848.06 = 3963.16 over 34 frames.
+dan_8_19 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_2, best cost 182.99 + 14684.5 = 14867.5 over 145 frames.
+dan_8_2 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_20, best cost 118.032 + 4415.92 = 4533.95 over 39 frames.
+dan_8_20 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_21, best cost 116.401 + 4213.99 = 4330.39 over 37 frames.
+dan_8_21 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_22, best cost 115.239 + 3774.4 = 3889.64 over 34 frames.
+dan_8_22 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_23, best cost 122.861 + 8390.66 = 8513.52 over 80 frames.
+dan_8_23 ba 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_24, best cost 116.351 + 4188.21 = 4304.56 over 38 frames.
+dan_8_24 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_25, best cost 135.213 + 5760.69 = 5895.9 over 55 frames.
+dan_8_25 tam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_26, best cost 92.5476 + 3912.84 = 4005.39 over 35 frames.
+dan_8_26 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_27, best cost 115.647 + 4131.06 = 4246.71 over 37 frames.
+dan_8_27 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_28, best cost 145.654 + 8795.16 = 8940.81 over 86 frames.
+dan_8_28 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_29, best cost 143.617 + 8481.37 = 8624.99 over 80 frames.
+dan_8_29 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_3, best cost 92.2357 + 3706.28 = 3798.51 over 33 frames.
+dan_8_3 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_30, best cost 114.236 + 4239.17 = 4353.41 over 38 frames.
+dan_8_30 khong 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_31, best cost 91.6682 + 3358.04 = 3449.71 over 31 frames.
+dan_8_31 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_32, best cost 149.462 + 7783.36 = 7932.83 over 73 frames.
+dan_8_32 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_33, best cost 49.9767 + 4333.33 = 4383.31 over 37 frames.
+dan_8_33 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_34, best cost 93.0485 + 3667.13 = 3760.18 over 35 frames.
+dan_8_34 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_35, best cost 91.9801 + 3547.63 = 3639.61 over 33 frames.
+dan_8_35 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_36, best cost 115.973 + 3903.58 = 4019.55 over 36 frames.
+dan_8_36 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_37, best cost 92.2257 + 3630.23 = 3722.46 over 34 frames.
+dan_8_37 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_38, best cost 92.8031 + 3861.5 = 3954.3 over 35 frames.
+dan_8_38 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_39, best cost 143.049 + 8079.07 = 8222.12 over 80 frames.
+dan_8_39 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_4, best cost 118.471 + 4578.1 = 4696.57 over 42 frames.
+dan_8_4 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_40, best cost 101.353 + 3683.85 = 3785.2 over 33 frames.
+dan_8_40 bay 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_41, best cost 115.069 + 3847.44 = 3962.51 over 34 frames.
+dan_8_41 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_42, best cost 91.6682 + 3352.15 = 3443.82 over 31 frames.
+dan_8_42 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_43, best cost 91.6956 + 3475.5 = 3567.2 over 31 frames.
+dan_8_43 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_44, best cost 91.3845 + 3199.46 = 3290.84 over 30 frames.
+dan_8_44 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_45, best cost 92.1246 + 3567.42 = 3659.54 over 33 frames.
+dan_8_45 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_46, best cost 91.1784 + 3167.59 = 3258.77 over 29 frames.
+dan_8_46 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_47, best cost 49.1252 + 3431.6 = 3480.73 over 30 frames.
+dan_8_47 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_48, best cost 92.0296 + 3605.74 = 3697.77 over 32 frames.
+dan_8_48 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_49, best cost 138.926 + 7503.96 = 7642.89 over 71 frames.
+dan_8_49 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_5, best cost 92.4466 + 3818.68 = 3911.13 over 35 frames.
+dan_8_5 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_6, best cost 91.9909 + 3684.64 = 3776.63 over 33 frames.
+dan_8_6 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_7, best cost 47.6051 + 2680.93 = 2728.54 over 23 frames.
+dan_8_7 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_8, best cost 116.746 + 4182.55 = 4299.3 over 38 frames.
+dan_8_8 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_8_9, best cost 136.587 + 7436.93 = 7573.51 over 71 frames.
+dan_8_9 nam 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_0, best cost 91.4797 + 3685.65 = 3777.13 over 28 frames.
+dan_9_0 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_1, best cost 145.883 + 6295.49 = 6441.37 over 48 frames.
+dan_9_1 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_10, best cost 142.018 + 13738.3 = 13880.3 over 130 frames.
+dan_9_10 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_11, best cost 93.2753 + 3931.98 = 4025.25 over 34 frames.
+dan_9_11 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_12, best cost 92.6282 + 4100.29 = 4192.91 over 33 frames.
+dan_9_12 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_13, best cost 92.5826 + 3847.46 = 3940.04 over 33 frames.
+dan_9_13 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_14, best cost 93.8266 + 4094.49 = 4188.31 over 34 frames.
+dan_9_14 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_15, best cost 93.6926 + 3946.17 = 4039.87 over 34 frames.
+dan_9_15 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_16, best cost 93.1243 + 4641.06 = 4734.19 over 34 frames.
+dan_9_16 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_17, best cost 93.5863 + 4151.63 = 4245.21 over 35 frames.
+dan_9_17 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_18, best cost 93.5425 + 3909.85 = 4003.39 over 34 frames.
+dan_9_18 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_19, best cost 93.1195 + 3656.04 = 3749.16 over 34 frames.
+dan_9_19 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_2, best cost 105.058 + 4388.99 = 4494.05 over 34 frames.
+dan_9_2 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_20, best cost 92.4715 + 3878.46 = 3970.94 over 31 frames.
+dan_9_20 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_21, best cost 94.5354 + 4238 = 4332.54 over 35 frames.
+dan_9_21 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_22, best cost 112.708 + 8142.23 = 8254.94 over 76 frames.
+dan_9_22 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_23, best cost 93.3176 + 4161.45 = 4254.77 over 33 frames.
+dan_9_23 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_24, best cost 93.7472 + 4172.25 = 4266 over 35 frames.
+dan_9_24 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_25, best cost 93.1472 + 3789.97 = 3883.12 over 33 frames.
+dan_9_25 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_26, best cost 167.183 + 14454 = 14621.2 over 139 frames.
+dan_9_26 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_27, best cost 144.577 + 11036.8 = 11181.3 over 103 frames.
+dan_9_27 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_28, best cost 93.8692 + 4604.53 = 4698.4 over 36 frames.
+dan_9_28 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_29, best cost 93.6168 + 4008.2 = 4101.82 over 35 frames.
+dan_9_29 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_3, best cost 91.9155 + 3383.21 = 3475.13 over 28 frames.
+dan_9_3 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_30, best cost 168.782 + 14504.7 = 14673.5 over 141 frames.
+dan_9_30 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_31, best cost 119.36 + 6570.35 = 6689.71 over 61 frames.
+dan_9_31 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_32, best cost 92.7157 + 3685.85 = 3778.56 over 32 frames.
+dan_9_32 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_33, best cost 92.2913 + 3511.62 = 3603.92 over 31 frames.
+dan_9_33 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_34, best cost 92.2093 + 3982.95 = 4075.15 over 31 frames.
+dan_9_34 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_35, best cost 94.0654 + 4405.53 = 4499.6 over 35 frames.
+dan_9_35 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_36, best cost 92.3533 + 3667.5 = 3759.85 over 30 frames.
+dan_9_36 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_37, best cost 94.1972 + 4621.32 = 4715.52 over 36 frames.
+dan_9_37 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_38, best cost 92.1108 + 3921.93 = 4014.04 over 33 frames.
+dan_9_38 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_39, best cost 92.7465 + 3688.35 = 3781.1 over 30 frames.
+dan_9_39 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_4, best cost 93.2192 + 3826.28 = 3919.5 over 33 frames.
+dan_9_4 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_40, best cost 92.0984 + 3741.5 = 3833.6 over 32 frames.
+dan_9_40 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_41, best cost 93.1026 + 3614.62 = 3707.72 over 31 frames.
+dan_9_41 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_42, best cost 92.3962 + 3651.28 = 3743.68 over 31 frames.
+dan_9_42 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_43, best cost 91.739 + 3656.85 = 3748.59 over 32 frames.
+dan_9_43 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_44, best cost 123.983 + 7648.6 = 7772.58 over 74 frames.
+dan_9_44 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_45, best cost 92.3064 + 3573.69 = 3665.99 over 32 frames.
+dan_9_45 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_46, best cost 92.6791 + 3669.01 = 3761.69 over 30 frames.
+dan_9_46 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_47, best cost 92.86 + 3844.14 = 3937 over 31 frames.
+dan_9_47 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_48, best cost 93.2912 + 3909.13 = 4002.42 over 34 frames.
+dan_9_48 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_49, best cost 93.0503 + 3960.79 = 4053.84 over 33 frames.
+dan_9_49 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_5, best cost 116.637 + 10269.7 = 10386.4 over 98 frames.
+dan_9_5 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_6, best cost 93.5659 + 4336.13 = 4429.7 over 35 frames.
+dan_9_6 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_7, best cost 93.0845 + 4006.96 = 4100.05 over 32 frames.
+dan_9_7 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_8, best cost 94.2398 + 3952.77 = 4047.01 over 33 frames.
+dan_9_8 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance dan_9_9, best cost 119.536 + 9142.38 = 9261.92 over 85 frames.
+dan_9_9 chin 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:124) Overall cost per frame is 113.688 = 2.45842 [graph] + 111.229 [acoustic] over 21068 frames.
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:128) Done 500 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Apr 20 03:11:00 PDT 2020, elapsed time 0 seconds

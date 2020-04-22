@@ -1,0 +1,1012 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode/lat.1.gz" 
+# Started at Mon Apr 20 03:11:10 PDT 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+dan_0_0 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_0 is -9.95083 over 33 frames.
+dan_0_1 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_1 is -11.0232 over 33 frames.
+dan_0_10 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_10 is -8.60395 over 84 frames.
+dan_0_11 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_11 is -10.9136 over 33 frames.
+dan_0_12 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_12 is -10.1607 over 33 frames.
+dan_0_13 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_13 is -11.062 over 31 frames.
+dan_0_14 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_14 is -9.62444 over 36 frames.
+dan_0_15 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_15 is -10.5947 over 34 frames.
+dan_0_16 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_16 is -10.3299 over 34 frames.
+dan_0_17 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_17 is -10.9881 over 35 frames.
+dan_0_18 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_18 is -9.46651 over 82 frames.
+dan_0_19 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_19 is -9.98354 over 30 frames.
+dan_0_2 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_2 is -10.7708 over 31 frames.
+dan_0_20 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_20 is -10.8332 over 34 frames.
+dan_0_21 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_21 is -9.17742 over 154 frames.
+dan_0_22 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_22 is -10.1357 over 38 frames.
+dan_0_23 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_23 is -8.91405 over 142 frames.
+dan_0_24 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_24 is -10.0334 over 32 frames.
+dan_0_25 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_25 is -10.5398 over 29 frames.
+dan_0_26 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_26 is -10.9996 over 27 frames.
+dan_0_27 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_27 is -10.7903 over 27 frames.
+dan_0_28 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_28 is -10.6523 over 30 frames.
+dan_0_29 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_29 is -10.8019 over 30 frames.
+dan_0_3 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_3 is -10.9433 over 28 frames.
+dan_0_30 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_30 is -10.1892 over 32 frames.
+dan_0_31 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_31 is -10.845 over 28 frames.
+dan_0_32 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_32 is -11.4305 over 67 frames.
+dan_0_33 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_33 is -10.5874 over 29 frames.
+dan_0_34 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_34 is -10.0297 over 29 frames.
+dan_0_35 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_35 is -10.4764 over 26 frames.
+dan_0_36 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_36 is -10.6185 over 27 frames.
+dan_0_37 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_37 is -10.4051 over 28 frames.
+dan_0_38 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_38 is -9.93493 over 27 frames.
+dan_0_39 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_39 is -9.88532 over 29 frames.
+dan_0_4 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_4 is -10.7034 over 34 frames.
+dan_0_40 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_40 is -10.3973 over 29 frames.
+dan_0_41 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_41 is -10.4242 over 29 frames.
+dan_0_42 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_42 is -10.4256 over 27 frames.
+dan_0_43 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_43 is -10.3765 over 29 frames.
+dan_0_44 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_44 is -11.0543 over 26 frames.
+dan_0_45 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_45 is -11.1525 over 26 frames.
+dan_0_46 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_46 is -10.7256 over 28 frames.
+dan_0_47 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_47 is -10.5084 over 29 frames.
+dan_0_48 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_48 is -10.5701 over 27 frames.
+dan_0_49 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_49 is -9.65989 over 56 frames.
+dan_0_5 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_5 is -10.0073 over 33 frames.
+dan_0_6 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_6 is -10.0804 over 30 frames.
+dan_0_7 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_7 is -10.8061 over 29 frames.
+dan_0_8 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_8 is -9.57644 over 29 frames.
+dan_0_9 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_0_9 is -9.59623 over 38 frames.
+dan_1_0 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_0 is -13.0754 over 19 frames.
+dan_1_1 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_1 is -12.0622 over 18 frames.
+dan_1_10 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_10 is -10.7697 over 26 frames.
+dan_1_11 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_11 is -10.4923 over 35 frames.
+dan_1_12 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_12 is -11.4559 over 21 frames.
+dan_1_13 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_13 is -11.5109 over 22 frames.
+dan_1_14 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_14 is -10.9657 over 21 frames.
+dan_1_15 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_15 is -10.5767 over 16 frames.
+dan_1_16 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_16 is -11.2028 over 24 frames.
+dan_1_17 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_17 is -10.301 over 32 frames.
+dan_1_18 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_18 is -11.393 over 23 frames.
+dan_1_19 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_19 is -11.7597 over 26 frames.
+dan_1_2 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_2 is -10.1039 over 32 frames.
+dan_1_20 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_20 is -9.38744 over 76 frames.
+dan_1_21 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_21 is -12.4503 over 29 frames.
+dan_1_22 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_22 is -11.1601 over 22 frames.
+dan_1_23 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_23 is -11.7481 over 24 frames.
+dan_1_24 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_24 is -11.8456 over 23 frames.
+dan_1_25 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_25 is -12.9247 over 22 frames.
+dan_1_26 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_26 is -12.4465 over 25 frames.
+dan_1_27 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_27 is -12.5082 over 22 frames.
+dan_1_28 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_28 is -12.3971 over 21 frames.
+dan_1_29 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_29 is -10.4126 over 55 frames.
+dan_1_3 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_3 is -11.2408 over 19 frames.
+dan_1_30 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_30 is -9.91292 over 64 frames.
+dan_1_31 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_31 is -12.6838 over 22 frames.
+dan_1_32 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_32 is -9.24399 over 101 frames.
+dan_1_33 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_33 is -12.0399 over 25 frames.
+dan_1_34 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_34 is -11.5375 over 17 frames.
+dan_1_35 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_35 is -9.10726 over 103 frames.
+dan_1_36 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_36 is -12.6521 over 24 frames.
+dan_1_37 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_37 is -12.2635 over 24 frames.
+dan_1_38 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_38 is -12.4179 over 22 frames.
+dan_1_39 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_39 is -12.2644 over 22 frames.
+dan_1_4 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_4 is -11.4567 over 22 frames.
+dan_1_40 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_40 is -12.2313 over 20 frames.
+dan_1_41 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_41 is -11.4488 over 18 frames.
+dan_1_42 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_42 is -10.8669 over 27 frames.
+dan_1_43 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_43 is -12.348 over 18 frames.
+dan_1_44 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_44 is -11.5328 over 21 frames.
+dan_1_45 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_45 is -11.9561 over 17 frames.
+dan_1_46 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_46 is -12.1348 over 15 frames.
+dan_1_47 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_47 is -11.2183 over 20 frames.
+dan_1_48 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_48 is -12.3489 over 20 frames.
+dan_1_49 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_49 is -10.1804 over 52 frames.
+dan_1_5 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_5 is -11.4585 over 23 frames.
+dan_1_6 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_6 is -13.1355 over 19 frames.
+dan_1_7 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_7 is -11.1314 over 24 frames.
+dan_1_8 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_8 is -11.9122 over 21 frames.
+dan_1_9 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_1_9 is -11.55 over 18 frames.
+dan_2_0 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_0 is -8.66566 over 136 frames.
+dan_2_1 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_1 is -10.0806 over 37 frames.
+dan_2_10 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_10 is -9.98381 over 38 frames.
+dan_2_11 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_11 is -9.37645 over 37 frames.
+dan_2_12 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_12 is -9.67525 over 34 frames.
+dan_2_13 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_13 is -9.4442 over 37 frames.
+dan_2_14 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_14 is -9.47381 over 36 frames.
+dan_2_15 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_15 is -9.37468 over 38 frames.
+dan_2_16 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_16 is -8.97681 over 36 frames.
+dan_2_17 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_17 is -8.6366 over 93 frames.
+dan_2_18 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_18 is -9.78431 over 41 frames.
+dan_2_19 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_19 is -8.53643 over 71 frames.
+dan_2_2 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_2 is -10.1358 over 37 frames.
+dan_2_20 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_20 is -10.0001 over 53 frames.
+dan_2_21 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_21 is -10.157 over 40 frames.
+dan_2_22 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_22 is -9.27456 over 41 frames.
+dan_2_23 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_23 is -9.14013 over 38 frames.
+dan_2_24 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_24 is -8.99122 over 41 frames.
+dan_2_25 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_25 is -9.88932 over 36 frames.
+dan_2_26 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_26 is -9.20779 over 39 frames.
+dan_2_27 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_27 is -9.0414 over 40 frames.
+dan_2_28 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_28 is -8.854 over 44 frames.
+dan_2_29 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_29 is -9.08745 over 42 frames.
+dan_2_3 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_3 is -9.7646 over 39 frames.
+dan_2_30 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_30 is -9.04075 over 43 frames.
+dan_2_31 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_31 is -8.87712 over 41 frames.
+dan_2_32 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_32 is -9.53983 over 41 frames.
+dan_2_33 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_33 is -9.58583 over 41 frames.
+dan_2_34 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_34 is -8.91784 over 42 frames.
+dan_2_35 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_35 is -9.57028 over 42 frames.
+dan_2_36 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_36 is -9.47194 over 45 frames.
+dan_2_37 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_37 is -8.89002 over 39 frames.
+dan_2_38 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_38 is -8.90545 over 40 frames.
+dan_2_39 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_39 is -9.19483 over 36 frames.
+dan_2_4 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_4 is -10.62 over 39 frames.
+dan_2_40 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_40 is -9.39125 over 56 frames.
+dan_2_41 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_41 is -8.97215 over 67 frames.
+dan_2_42 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_42 is -9.59801 over 38 frames.
+dan_2_43 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_43 is -9.34585 over 34 frames.
+dan_2_44 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_44 is -9.33079 over 36 frames.
+dan_2_45 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_45 is -10.1186 over 32 frames.
+dan_2_46 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_46 is -9.89119 over 33 frames.
+dan_2_47 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_47 is -9.50887 over 35 frames.
+dan_2_48 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_48 is -9.01968 over 34 frames.
+dan_2_49 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_49 is -9.60281 over 34 frames.
+dan_2_5 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_5 is -9.67735 over 38 frames.
+dan_2_6 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_6 is -9.11135 over 39 frames.
+dan_2_7 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_7 is -10.0841 over 37 frames.
+dan_2_8 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_8 is -9.18039 over 37 frames.
+dan_2_9 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_2_9 is -9.29908 over 34 frames.
+dan_3_0 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_0 is -8.56696 over 127 frames.
+dan_3_1 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_1 is -9.16093 over 32 frames.
+dan_3_10 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_10 is -8.9414 over 38 frames.
+dan_3_11 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_11 is -8.88319 over 41 frames.
+dan_3_12 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_12 is -8.61112 over 53 frames.
+dan_3_13 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_13 is -8.40377 over 127 frames.
+dan_3_14 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_14 is -9.025 over 39 frames.
+dan_3_15 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_15 is -9.14772 over 44 frames.
+dan_3_16 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_16 is -8.58169 over 75 frames.
+dan_3_17 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_17 is -8.84844 over 35 frames.
+dan_3_18 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_18 is -8.60684 over 35 frames.
+dan_3_19 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_19 is -8.4322 over 36 frames.
+dan_3_2 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_2 is -8.99718 over 32 frames.
+dan_3_20 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_20 is -8.30886 over 86 frames.
+dan_3_21 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_21 is -9.03645 over 31 frames.
+dan_3_22 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_22 is -8.61778 over 39 frames.
+dan_3_23 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_23 is -8.84347 over 36 frames.
+dan_3_24 ba 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_24 is -7.87308 over 198 frames.
+dan_3_25 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_25 is -9.16425 over 39 frames.
+dan_3_26 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_26 is -9.57851 over 39 frames.
+dan_3_27 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_27 is -8.7187 over 39 frames.
+dan_3_28 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_28 is -9.1045 over 54 frames.
+dan_3_29 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_29 is -9.62378 over 37 frames.
+dan_3_3 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_3 is -9.72906 over 35 frames.
+dan_3_30 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_30 is -9.40862 over 35 frames.
+dan_3_31 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_31 is -9.01683 over 35 frames.
+dan_3_32 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_32 is -9.29002 over 36 frames.
+dan_3_33 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_33 is -8.54442 over 36 frames.
+dan_3_34 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_34 is -8.68194 over 37 frames.
+dan_3_35 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_35 is -8.68474 over 38 frames.
+dan_3_36 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_36 is -8.51964 over 85 frames.
+dan_3_37 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_37 is -8.65321 over 33 frames.
+dan_3_38 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_38 is -8.97559 over 33 frames.
+dan_3_39 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_39 is -8.89708 over 37 frames.
+dan_3_4 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_4 is -9.6313 over 80 frames.
+dan_3_40 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_40 is -9.02431 over 39 frames.
+dan_3_41 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_41 is -9.47955 over 31 frames.
+dan_3_42 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_42 is -9.26767 over 38 frames.
+dan_3_43 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_43 is -8.85413 over 63 frames.
+dan_3_44 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_44 is -9.03774 over 36 frames.
+dan_3_45 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_45 is -9.77304 over 34 frames.
+dan_3_46 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_46 is -9.16795 over 30 frames.
+dan_3_47 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_47 is -9.18906 over 36 frames.
+dan_3_48 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_48 is -8.96388 over 36 frames.
+dan_3_49 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_49 is -8.59236 over 119 frames.
+dan_3_5 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_5 is -8.34383 over 68 frames.
+dan_3_6 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_6 is -9.0294 over 34 frames.
+dan_3_7 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_7 is -9.24446 over 35 frames.
+dan_3_8 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_8 is -8.31852 over 85 frames.
+dan_3_9 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_3_9 is -8.56214 over 39 frames.
+dan_4_0 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_0 is -10.244 over 32 frames.
+dan_4_1 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_1 is -10.0355 over 34 frames.
+dan_4_10 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_10 is -9.382 over 34 frames.
+dan_4_11 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_11 is -9.11008 over 35 frames.
+dan_4_12 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_12 is -9.12644 over 35 frames.
+dan_4_13 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_13 is -9.19913 over 37 frames.
+dan_4_14 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_14 is -8.98146 over 33 frames.
+dan_4_15 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_15 is -10.0976 over 36 frames.
+dan_4_16 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_16 is -9.84861 over 35 frames.
+dan_4_17 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_17 is -10.5706 over 38 frames.
+dan_4_18 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_18 is -9.93061 over 35 frames.
+dan_4_19 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_19 is -10.3162 over 31 frames.
+dan_4_2 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_2 is -10.3022 over 39 frames.
+dan_4_20 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_20 is -9.18171 over 63 frames.
+dan_4_21 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_21 is -9.65867 over 35 frames.
+dan_4_22 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_22 is -9.0171 over 51 frames.
+dan_4_23 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_23 is -9.68621 over 34 frames.
+dan_4_24 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_24 is -9.45635 over 38 frames.
+dan_4_25 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_25 is -9.59133 over 40 frames.
+dan_4_26 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_26 is -9.17929 over 38 frames.
+dan_4_27 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_27 is -10.2838 over 39 frames.
+dan_4_28 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_28 is -10.0393 over 47 frames.
+dan_4_29 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_29 is -11.176 over 34 frames.
+dan_4_3 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_3 is -10.0964 over 32 frames.
+dan_4_30 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_30 is -9.95761 over 35 frames.
+dan_4_31 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_31 is -10.1247 over 36 frames.
+dan_4_32 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_32 is -9.92976 over 34 frames.
+dan_4_33 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_33 is -10.0143 over 33 frames.
+dan_4_34 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_34 is -9.44378 over 72 frames.
+dan_4_35 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_35 is -10.633 over 35 frames.
+dan_4_36 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_36 is -11.1167 over 31 frames.
+dan_4_37 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_37 is -9.92695 over 37 frames.
+dan_4_38 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_38 is -10.4257 over 39 frames.
+dan_4_39 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_39 is -10.5897 over 36 frames.
+dan_4_4 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_4 is -9.54461 over 33 frames.
+dan_4_40 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_40 is -11.7109 over 38 frames.
+dan_4_41 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_41 is -10.0829 over 36 frames.
+dan_4_42 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_42 is -10.1247 over 36 frames.
+dan_4_43 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_43 is -9.83996 over 35 frames.
+dan_4_44 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_44 is -10.1258 over 34 frames.
+dan_4_45 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_45 is -10.1913 over 31 frames.
+dan_4_46 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_46 is -10.1769 over 29 frames.
+dan_4_47 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_47 is -10.0246 over 31 frames.
+dan_4_48 mot 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_48 is -10.3045 over 34 frames.
+dan_4_49 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_49 is -10.0075 over 31 frames.
+dan_4_5 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_5 is -9.1797 over 36 frames.
+dan_4_6 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_6 is -9.64135 over 34 frames.
+dan_4_7 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_7 is -9.59772 over 33 frames.
+dan_4_8 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_8 is -9.39623 over 36 frames.
+dan_4_9 bon 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_4_9 is -9.38825 over 34 frames.
+dan_5_0 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_0 is -10.2099 over 30 frames.
+dan_5_1 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_1 is -9.1453 over 68 frames.
+dan_5_10 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_10 is -9.93079 over 29 frames.
+dan_5_11 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_11 is -9.86213 over 29 frames.
+dan_5_12 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_12 is -10.3744 over 25 frames.
+dan_5_13 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_13 is -10.0357 over 28 frames.
+dan_5_14 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_14 is -10.1579 over 27 frames.
+dan_5_15 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_15 is -10.0643 over 32 frames.
+dan_5_16 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_16 is -8.67442 over 160 frames.
+dan_5_17 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_17 is -10.2337 over 28 frames.
+dan_5_18 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_18 is -9.75956 over 32 frames.
+dan_5_19 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_19 is -9.99476 over 39 frames.
+dan_5_2 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_2 is -9.99896 over 29 frames.
+dan_5_20 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_20 is -9.99657 over 30 frames.
+dan_5_21 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_21 is -10.0663 over 33 frames.
+dan_5_22 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_22 is -9.53546 over 39 frames.
+dan_5_23 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_23 is -9.89216 over 32 frames.
+dan_5_24 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_24 is -10.3821 over 32 frames.
+dan_5_25 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_25 is -11.168 over 29 frames.
+dan_5_26 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_26 is -9.93914 over 31 frames.
+dan_5_27 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_27 is -9.83446 over 34 frames.
+dan_5_28 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_28 is -10.0804 over 32 frames.
+dan_5_29 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_29 is -10.0253 over 35 frames.
+dan_5_3 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_3 is -10.2659 over 31 frames.
+dan_5_30 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_30 is -8.43184 over 103 frames.
+dan_5_31 ba 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_31 is -9.94913 over 32 frames.
+dan_5_32 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_32 is -10.2075 over 32 frames.
+dan_5_33 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_33 is -10.1747 over 32 frames.
+dan_5_34 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_34 is -8.7936 over 149 frames.
+dan_5_35 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_35 is -10.0531 over 29 frames.
+dan_5_36 ba 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_36 is -10.2913 over 28 frames.
+dan_5_37 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_37 is -10.37 over 28 frames.
+dan_5_38 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_38 is -8.96527 over 93 frames.
+dan_5_39 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_39 is -9.08914 over 143 frames.
+dan_5_4 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_4 is -9.39169 over 33 frames.
+dan_5_40 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_40 is -10.468 over 31 frames.
+dan_5_41 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_41 is -10.2475 over 35 frames.
+dan_5_42 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_42 is -9.83895 over 28 frames.
+dan_5_43 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_43 is -10.4151 over 35 frames.
+dan_5_44 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_44 is -10.6333 over 26 frames.
+dan_5_45 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_45 is -10.7036 over 29 frames.
+dan_5_46 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_46 is -10.7315 over 26 frames.
+dan_5_47 ba 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_47 is -10.4976 over 27 frames.
+dan_5_48 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_48 is -10.4148 over 26 frames.
+dan_5_49 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_49 is -10.9993 over 25 frames.
+dan_5_5 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_5 is -9.89664 over 30 frames.
+dan_5_6 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_6 is -10.231 over 27 frames.
+dan_5_7 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_7 is -9.965 over 29 frames.
+dan_5_8 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_8 is -10.1521 over 28 frames.
+dan_5_9 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_5_9 is -10.0924 over 29 frames.
+dan_6_0 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_0 is -10.8406 over 38 frames.
+dan_6_1 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_1 is -12.6823 over 42 frames.
+dan_6_10 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_10 is -8.81067 over 37 frames.
+dan_6_11 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_11 is -9.44945 over 37 frames.
+dan_6_12 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_12 is -9.05968 over 61 frames.
+dan_6_13 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_13 is -8.98147 over 40 frames.
+dan_6_14 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_14 is -8.59313 over 35 frames.
+dan_6_15 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_15 is -9.28819 over 38 frames.
+dan_6_16 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_16 is -8.90123 over 35 frames.
+dan_6_17 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_17 is -8.85612 over 41 frames.
+dan_6_18 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_18 is -9.3864 over 39 frames.
+dan_6_19 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_19 is -9.48857 over 37 frames.
+dan_6_2 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_2 is -9.49929 over 42 frames.
+dan_6_20 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_20 is -9.60284 over 40 frames.
+dan_6_21 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_21 is -8.91657 over 43 frames.
+dan_6_22 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_22 is -9.36615 over 41 frames.
+dan_6_23 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_23 is -8.73259 over 40 frames.
+dan_6_24 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_24 is -8.87431 over 41 frames.
+dan_6_25 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_25 is -8.41781 over 91 frames.
+dan_6_26 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_26 is -9.30348 over 42 frames.
+dan_6_27 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_27 is -9.08963 over 44 frames.
+dan_6_28 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_28 is -8.8017 over 44 frames.
+dan_6_29 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_29 is -8.88607 over 43 frames.
+dan_6_3 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_3 is -8.41941 over 136 frames.
+dan_6_30 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_30 is -9.66046 over 40 frames.
+dan_6_31 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_31 is -9.00532 over 43 frames.
+dan_6_32 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_32 is -8.86457 over 69 frames.
+dan_6_33 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_33 is -9.11658 over 40 frames.
+dan_6_34 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_34 is -8.67308 over 39 frames.
+dan_6_35 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_35 is -8.91672 over 38 frames.
+dan_6_36 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_36 is -9.17435 over 50 frames.
+dan_6_37 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_37 is -9.1978 over 38 frames.
+dan_6_38 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_38 is -9.49901 over 35 frames.
+dan_6_39 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_39 is -9.36023 over 36 frames.
+dan_6_4 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_4 is -8.94829 over 44 frames.
+dan_6_40 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_40 is -9.18741 over 37 frames.
+dan_6_41 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_41 is -9.36882 over 39 frames.
+dan_6_42 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_42 is -8.51879 over 39 frames.
+dan_6_43 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_43 is -8.78626 over 96 frames.
+dan_6_44 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_44 is -9.11404 over 70 frames.
+dan_6_45 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_45 is -8.94359 over 37 frames.
+dan_6_46 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_46 is -8.93855 over 37 frames.
+dan_6_47 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_47 is -8.90376 over 24 frames.
+dan_6_48 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_48 is -9.5419 over 38 frames.
+dan_6_49 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_49 is -9.33327 over 36 frames.
+dan_6_5 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_5 is -9.38015 over 66 frames.
+dan_6_6 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_6 is -8.68567 over 44 frames.
+dan_6_7 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_7 is -8.52569 over 41 frames.
+dan_6_8 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_8 is -8.44764 over 41 frames.
+dan_6_9 sau 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_6_9 is -9.66415 over 44 frames.
+dan_7_0 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_0 is -9.85787 over 34 frames.
+dan_7_1 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_1 is -9.50763 over 35 frames.
+dan_7_10 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_10 is -10.1989 over 32 frames.
+dan_7_11 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_11 is -10.0637 over 35 frames.
+dan_7_12 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_12 is -10.1738 over 32 frames.
+dan_7_13 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_13 is -9.74285 over 36 frames.
+dan_7_14 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_14 is -9.54984 over 87 frames.
+dan_7_15 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_15 is -9.21984 over 35 frames.
+dan_7_16 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_16 is -9.08313 over 34 frames.
+dan_7_17 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_17 is -9.62868 over 30 frames.
+dan_7_18 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_18 is -9.71558 over 33 frames.
+dan_7_19 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_19 is -9.63994 over 35 frames.
+dan_7_2 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_2 is -10.1978 over 33 frames.
+dan_7_20 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_20 is -9.47148 over 35 frames.
+dan_7_21 hai bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_21 is -8.56415 over 165 frames.
+dan_7_22 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_22 is -9.80736 over 35 frames.
+dan_7_23 ba hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_23 is -10.1847 over 37 frames.
+dan_7_24 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_24 is -9.74116 over 38 frames.
+dan_7_25 ba hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_25 is -9.12193 over 70 frames.
+dan_7_26 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_26 is -10.3515 over 36 frames.
+dan_7_27 ba hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_27 is -9.60374 over 49 frames.
+dan_7_28 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_28 is -10.0067 over 38 frames.
+dan_7_29 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_29 is -10.5453 over 39 frames.
+dan_7_3 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_3 is -9.76741 over 29 frames.
+dan_7_30 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_30 is -10.2799 over 36 frames.
+dan_7_31 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_31 is -9.15079 over 69 frames.
+dan_7_32 ba hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_32 is -9.01771 over 73 frames.
+dan_7_33 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_33 is -9.91756 over 38 frames.
+dan_7_34 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_34 is -10.3834 over 37 frames.
+dan_7_35 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_35 is -9.93788 over 38 frames.
+dan_7_36 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_36 is -10.4571 over 39 frames.
+dan_7_37 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_37 is -10.3903 over 33 frames.
+dan_7_38 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_38 is -9.87257 over 41 frames.
+dan_7_39 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_39 is -9.78161 over 44 frames.
+dan_7_4 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_4 is -9.31671 over 33 frames.
+dan_7_40 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_40 is -9.8638 over 36 frames.
+dan_7_41 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_41 is -9.86461 over 34 frames.
+dan_7_42 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_42 is -10.1831 over 38 frames.
+dan_7_43 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_43 is -9.9609 over 36 frames.
+dan_7_44 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_44 is -9.55473 over 44 frames.
+dan_7_45 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_45 is -9.88214 over 41 frames.
+dan_7_46 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_46 is -10.1765 over 37 frames.
+dan_7_47 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_47 is -9.68234 over 39 frames.
+dan_7_48 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_48 is -9.50136 over 28 frames.
+dan_7_49 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_49 is -9.29824 over 32 frames.
+dan_7_5 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_5 is -8.81652 over 110 frames.
+dan_7_6 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_6 is -9.58833 over 31 frames.
+dan_7_7 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_7 is -9.39505 over 32 frames.
+dan_7_8 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_8 is -8.6203 over 122 frames.
+dan_7_9 hai 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_7_9 is -10.3257 over 31 frames.
+dan_8_0 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_0 is -9.5597 over 36 frames.
+dan_8_1 tam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_1 is -8.98033 over 70 frames.
+dan_8_10 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_10 is -9.37126 over 61 frames.
+dan_8_11 tam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_11 is -8.76792 over 147 frames.
+dan_8_12 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_12 is -9.76849 over 36 frames.
+dan_8_13 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_13 is -9.74236 over 37 frames.
+dan_8_14 tam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_14 is -10.1223 over 35 frames.
+dan_8_15 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_15 is -10.1976 over 35 frames.
+dan_8_16 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_16 is -9.79005 over 39 frames.
+dan_8_17 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_17 is -9.57704 over 40 frames.
+dan_8_18 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_18 is -9.74215 over 38 frames.
+dan_8_19 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_19 is -9.95031 over 34 frames.
+dan_8_2 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_2 is -8.74983 over 145 frames.
+dan_8_20 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_20 is -9.85786 over 39 frames.
+dan_8_21 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_21 is -9.7888 over 37 frames.
+dan_8_22 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_22 is -9.7524 over 34 frames.
+dan_8_23 ba 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_23 is -8.99865 over 80 frames.
+dan_8_24 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_24 is -9.55267 over 38 frames.
+dan_8_25 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_25 is -9.06767 over 55 frames.
+dan_8_26 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_26 is -9.57922 over 35 frames.
+dan_8_27 khong 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_27 is -9.66373 over 37 frames.
+dan_8_28 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_28 is -9.01301 over 86 frames.
+dan_8_29 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_29 is -9.32282 over 80 frames.
+dan_8_3 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_3 is -9.6348 over 33 frames.
+dan_8_30 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_30 is -9.55243 over 38 frames.
+dan_8_31 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_31 is -9.4742 over 31 frames.
+dan_8_32 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_32 is -9.23624 over 73 frames.
+dan_8_33 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_33 is -10.0297 over 37 frames.
+dan_8_34 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_34 is -9.0061 over 35 frames.
+dan_8_35 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_35 is -9.25666 over 33 frames.
+dan_8_36 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_36 is -9.38311 over 36 frames.
+dan_8_37 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_37 is -9.25432 over 34 frames.
+dan_8_38 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_38 is -9.24742 over 35 frames.
+dan_8_39 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_39 is -8.89119 over 80 frames.
+dan_8_4 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_4 is -9.42563 over 42 frames.
+dan_8_40 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_40 is -9.32651 over 33 frames.
+dan_8_41 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_41 is -9.73325 over 34 frames.
+dan_8_42 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_42 is -9.23191 over 31 frames.
+dan_8_43 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_43 is -9.81037 over 31 frames.
+dan_8_44 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_44 is -9.26233 over 30 frames.
+dan_8_45 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_45 is -9.29395 over 33 frames.
+dan_8_46 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_46 is -9.40918 over 29 frames.
+dan_8_47 bay 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_47 is -10.0912 over 30 frames.
+dan_8_48 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_48 is -9.74847 over 32 frames.
+dan_8_49 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_49 is -9.37067 over 71 frames.
+dan_8_5 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_5 is -9.50934 over 35 frames.
+dan_8_6 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_6 is -9.64322 over 33 frames.
+dan_8_7 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_7 is -10.3067 over 23 frames.
+dan_8_8 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_8 is -9.47544 over 38 frames.
+dan_8_9 nam 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_8_9 is -9.04164 over 71 frames.
+dan_9_0 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_0 is -10.8621 over 28 frames.
+dan_9_1 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_1 is -10.8905 over 48 frames.
+dan_9_10 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_10 is -9.06936 over 130 frames.
+dan_9_11 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_11 is -9.85184 over 34 frames.
+dan_9_12 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_12 is -10.5004 over 33 frames.
+dan_9_13 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_13 is -10.0012 over 33 frames.
+dan_9_14 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_14 is -10.3661 over 34 frames.
+dan_9_15 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_15 is -9.88216 over 34 frames.
+dan_9_16 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_16 is -11.332 over 34 frames.
+dan_9_17 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_17 is -10.0238 over 35 frames.
+dan_9_18 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_18 is -9.8015 over 34 frames.
+dan_9_19 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_19 is -9.1823 over 34 frames.
+dan_9_2 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_2 is -10.4796 over 34 frames.
+dan_9_20 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_20 is -10.6076 over 31 frames.
+LOG (apply-cmvn[5.5.671~1-e5a5a]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 500 utterances, errors on 0
+dan_9_21 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_21 is -10.062 over 35 frames.
+dan_9_22 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_22 is -9.00695 over 76 frames.
+dan_9_23 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_23 is -10.4233 over 33 frames.
+dan_9_24 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_24 is -10.024 over 35 frames.
+dan_9_25 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_25 is -9.92977 over 33 frames.
+dan_9_26 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_26 is -8.96982 over 139 frames.
+dan_9_27 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_27 is -9.207 over 103 frames.
+dan_9_28 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_28 is -10.7579 over 36 frames.
+dan_9_29 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_29 is -9.66736 over 35 frames.
+dan_9_3 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_3 is -10.234 over 28 frames.
+dan_9_30 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_30 is -8.691 over 141 frames.
+dan_9_31 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_31 is -9.27468 over 61 frames.
+dan_9_32 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_32 is -9.89736 over 32 frames.
+dan_9_33 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_33 is -9.50392 over 31 frames.
+dan_9_34 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_34 is -10.7785 over 31 frames.
+dan_9_35 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_35 is -10.5303 over 35 frames.
+dan_9_36 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_36 is -10.3901 over 30 frames.
+dan_9_37 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_37 is -10.7625 over 36 frames.
+dan_9_38 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_38 is -10.1353 over 33 frames.
+dan_9_39 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_39 is -10.2718 over 30 frames.
+dan_9_4 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_4 is -9.71162 over 33 frames.
+dan_9_40 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_40 is -9.79241 over 32 frames.
+dan_9_41 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_41 is -9.91225 over 31 frames.
+dan_9_42 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_42 is -10.0124 over 31 frames.
+dan_9_43 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_43 is -9.78994 over 32 frames.
+dan_9_44 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_44 is -8.97034 over 74 frames.
+dan_9_45 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_45 is -9.44996 over 32 frames.
+dan_9_46 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_46 is -10.4076 over 30 frames.
+dan_9_47 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_47 is -10.417 over 31 frames.
+dan_9_48 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_48 is -9.68382 over 34 frames.
+dan_9_49 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_49 is -10.1137 over 33 frames.
+dan_9_5 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_5 is -8.75034 over 98 frames.
+dan_9_6 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_6 is -10.5886 over 35 frames.
+dan_9_7 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_7 is -10.7674 over 32 frames.
+dan_9_8 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_8 is -10.1355 over 33 frames.
+dan_9_9 chin 
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance dan_9_9 is -9.08867 over 85 frames.
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:main():gmm-latgen-faster.cc:176) Time taken 1.95408s: real-time factor assuming 100 frames/sec is 0.00927509
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:main():gmm-latgen-faster.cc:179) Done 500 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.671~1-e5a5a]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -9.57917 over 21068 frames.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Mon Apr 20 03:11:12 PDT 2020, elapsed time 2 seconds

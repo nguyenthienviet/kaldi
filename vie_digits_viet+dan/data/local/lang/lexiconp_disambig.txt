@@ -1,0 +1,12 @@
+!SIL	1.0	sil_S
+<UNK>	1.0	spn_S
+ba	1.0	b_B a1_E
+bay	1.0	b_B aw4_I iz4_E
+bon	1.0	b_B oo3_I nc_E
+chin	1.0	ch_B i3_I nc_E
+hai	1.0	h_B a1_I iz1_E
+khong	1.0	kh_B oo1_I ngz_E
+mot	1.0	m_B oo6_I tc_E
+nam	1.0	n_B aw1_I mc_E
+sau	1.0	x_B a3_I uz3_E
+tam	1.0	t_B a3_I mc_E

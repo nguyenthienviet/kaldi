@@ -1,0 +1,13 @@
+!SIL !SIL sil_S
+<UNK> <UNK> spn_S
+<eps> <eps> sil
+ba ba b_B a1_E
+bay bay b_B aw4_I iz4_E
+bon bon b_B oo3_I nc_E
+chin chin ch_B i3_I nc_E
+hai hai h_B a1_I iz1_E
+khong khong kh_B oo1_I ngz_E
+mot mot m_B oo6_I tc_E
+nam nam n_B aw1_I mc_E
+sau sau x_B a3_I uz3_E
+tam tam t_B a3_I mc_E

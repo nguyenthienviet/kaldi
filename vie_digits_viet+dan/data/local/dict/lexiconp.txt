@@ -1,0 +1,12 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+ba 1.0	b a1
+bay 1.0	b aw4 iz4
+bon 1.0	b oo3 nc
+chin 1.0	ch i3 nc
+hai 1.0	h a1 iz1
+khong 1.0	kh oo1 ngz
+mot 1.0	m oo6 tc
+nam 1.0	n aw1 mc
+sau 1.0	x a3 uz3
+tam 1.0	t a3 mc

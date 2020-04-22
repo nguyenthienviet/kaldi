@@ -1,0 +1,408 @@
+# lattice-best-path --lm-scale=13 --word-symbol-table=exp/mono/graph/words.txt "ark:gunzip -c exp/mono/decode/lat.*.gz|" ark,t:exp/mono/decode/scoring/13.tra 
+# Started at Sat Apr 11 03:53:30 PDT 2020
+#
+lattice-best-path --lm-scale=13 --word-symbol-table=exp/mono/graph/words.txt 'ark:gunzip -c exp/mono/decode/lat.*.gz|' ark,t:exp/mono/decode/scoring/13.tra 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_0, best cost 44.1436 + 5490.02 = 5534.16 over 49 frames.
+viet_6_0 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_1, best cost 42.9582 + 5362.75 = 5405.7 over 47 frames.
+viet_6_1 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_10, best cost 44.8958 + 6405.03 = 6449.93 over 57 frames.
+viet_6_10 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_11, best cost 135.057 + 14452.5 = 14587.5 over 148 frames.
+viet_6_11 two 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_12, best cost 45.8842 + 6368.56 = 6414.45 over 58 frames.
+viet_6_12 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_13, best cost 49.2983 + 7741.4 = 7790.7 over 68 frames.
+viet_6_13 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_14, best cost 44.6721 + 7460.2 = 7504.87 over 67 frames.
+viet_6_14 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_15, best cost 46.207 + 6891.49 = 6937.7 over 62 frames.
+viet_6_15 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_16, best cost 129.299 + 15216.8 = 15346.1 over 141 frames.
+viet_6_16 two 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_17, best cost 58.781 + 11685.9 = 11744.7 over 110 frames.
+viet_6_17 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_18, best cost 41.9445 + 5219.63 = 5261.58 over 46 frames.
+viet_6_18 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_19, best cost 66.9177 + 14906.6 = 14973.6 over 154 frames.
+viet_6_19 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_2, best cost 41.9424 + 4993.2 = 5035.14 over 45 frames.
+viet_6_2 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_20, best cost 46.9336 + 6894.43 = 6941.37 over 61 frames.
+viet_6_20 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_21, best cost 45.2791 + 6844.02 = 6889.29 over 60 frames.
+viet_6_21 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_22, best cost 44.7303 + 6329.5 = 6374.23 over 56 frames.
+viet_6_22 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_23, best cost 48.2446 + 6778.59 = 6826.84 over 60 frames.
+viet_6_23 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_24, best cost 47.8215 + 6624.3 = 6672.12 over 59 frames.
+viet_6_24 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_25, best cost 43.2096 + 5495.09 = 5538.3 over 50 frames.
+viet_6_25 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_26, best cost 45.4825 + 7445.15 = 7490.64 over 67 frames.
+viet_6_26 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_27, best cost 47.9516 + 7527.68 = 7575.63 over 67 frames.
+viet_6_27 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_28, best cost 43.3712 + 6480.37 = 6523.74 over 58 frames.
+viet_6_28 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_29, best cost 42.6087 + 5925.63 = 5968.24 over 54 frames.
+viet_6_29 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_3, best cost 119.408 + 8002.77 = 8122.17 over 78 frames.
+viet_6_3 two 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_30, best cost 42.7325 + 6525.94 = 6568.68 over 59 frames.
+viet_6_30 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_31, best cost 41.9384 + 5678.67 = 5720.6 over 52 frames.
+viet_6_31 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_32, best cost 42.9061 + 6029.45 = 6072.36 over 55 frames.
+viet_6_32 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_33, best cost 121.732 + 6461.62 = 6583.35 over 60 frames.
+viet_6_33 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_34, best cost 44.4811 + 6811.25 = 6855.73 over 60 frames.
+viet_6_34 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_35, best cost 41.8567 + 5500.48 = 5542.34 over 49 frames.
+viet_6_35 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_36, best cost 115.065 + 5978.05 = 6093.11 over 55 frames.
+viet_6_36 two 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_37, best cost 42.3594 + 5922.58 = 5964.94 over 52 frames.
+viet_6_37 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_38, best cost 118.436 + 7527.99 = 7646.43 over 69 frames.
+viet_6_38 two 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_39, best cost 42.3555 + 6423.93 = 6466.28 over 59 frames.
+viet_6_39 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_4, best cost 45.8738 + 6552.06 = 6597.93 over 59 frames.
+viet_6_4 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_40, best cost 42.2379 + 5693.87 = 5736.1 over 51 frames.
+viet_6_40 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_41, best cost 43.5908 + 5806.93 = 5850.52 over 52 frames.
+viet_6_41 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_42, best cost 51.0776 + 8718.57 = 8769.64 over 83 frames.
+viet_6_42 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_43, best cost 44.8581 + 6647.97 = 6692.83 over 60 frames.
+viet_6_43 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_44, best cost 42.0764 + 5325.87 = 5367.95 over 46 frames.
+viet_6_44 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_45, best cost 51.7096 + 8957.8 = 9009.51 over 82 frames.
+viet_6_45 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_46, best cost 43.2137 + 5471.56 = 5514.78 over 49 frames.
+viet_6_46 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_47, best cost 83.5455 + 6503.65 = 6587.19 over 60 frames.
+viet_6_47 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_48, best cost 116.182 + 6759.95 = 6876.13 over 61 frames.
+viet_6_48 two 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_49, best cost 43.3333 + 5879.99 = 5923.33 over 52 frames.
+viet_6_49 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_5, best cost 45.5704 + 6957.11 = 7002.68 over 64 frames.
+viet_6_5 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_6, best cost 43.0862 + 6436.06 = 6479.15 over 57 frames.
+viet_6_6 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_7, best cost 47.3071 + 7045.25 = 7092.56 over 65 frames.
+viet_6_7 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_8, best cost 46.2597 + 6514.36 = 6560.62 over 60 frames.
+viet_6_8 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_6_9, best cost 43.3414 + 5249.38 = 5292.72 over 47 frames.
+viet_6_9 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_0, best cost 111.955 + 5034.64 = 5146.59 over 48 frames.
+viet_7_0 zero 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_1, best cost 53.2637 + 9013.59 = 9066.85 over 86 frames.
+viet_7_1 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_10, best cost 48.4142 + 6495.17 = 6543.58 over 60 frames.
+viet_7_10 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_11, best cost 106.688 + 5272.03 = 5378.72 over 49 frames.
+viet_7_11 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_12, best cost 110.066 + 6055.37 = 6165.44 over 55 frames.
+viet_7_12 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_13, best cost 109.718 + 5708.19 = 5817.91 over 53 frames.
+viet_7_13 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_14, best cost 129.58 + 5707.32 = 5836.9 over 54 frames.
+viet_7_14 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_15, best cost 108.158 + 5087.87 = 5196.03 over 49 frames.
+viet_7_15 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_16, best cost 43.4773 + 4488.61 = 4532.09 over 40 frames.
+viet_7_16 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_17, best cost 108.592 + 5291.33 = 5399.93 over 50 frames.
+viet_7_17 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_18, best cost 129.408 + 6397.49 = 6526.9 over 60 frames.
+viet_7_18 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_19, best cost 110.718 + 5964.56 = 6075.28 over 55 frames.
+viet_7_19 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_2, best cost 46.766 + 6397.96 = 6444.73 over 59 frames.
+viet_7_2 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_20, best cost 104.028 + 5200.21 = 5304.23 over 47 frames.
+viet_7_20 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_21, best cost 113.1 + 6331.32 = 6444.42 over 59 frames.
+viet_7_21 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_22, best cost 47.4005 + 6218 = 6265.4 over 56 frames.
+viet_7_22 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_23, best cost 49.3107 + 7055.78 = 7105.09 over 65 frames.
+viet_7_23 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_24, best cost 45.4169 + 5417.25 = 5462.66 over 48 frames.
+viet_7_24 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_25, best cost 106.831 + 5623.68 = 5730.51 over 52 frames.
+viet_7_25 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_26, best cost 163.955 + 5669.34 = 5833.3 over 55 frames.
+viet_7_26 five one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_27, best cost 150.688 + 16987 = 17137.7 over 182 frames.
+viet_7_27 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_28, best cost 121.629 + 8278.52 = 8400.14 over 79 frames.
+viet_7_28 zero 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_29, best cost 113.856 + 6942.68 = 7056.53 over 64 frames.
+viet_7_29 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_3, best cost 47.7419 + 6169.42 = 6217.16 over 57 frames.
+viet_7_3 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_30, best cost 48.1293 + 6539.8 = 6587.93 over 59 frames.
+viet_7_30 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_31, best cost 110.658 + 5642.89 = 5753.55 over 54 frames.
+viet_7_31 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_32, best cost 61.555 + 20054.4 = 20116 over 200 frames.
+viet_7_32 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_33, best cost 143.582 + 18057.6 = 18201.2 over 180 frames.
+viet_7_33 four 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_34, best cost 109.747 + 5888.63 = 5998.38 over 54 frames.
+viet_7_34 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_35, best cost 108.983 + 5479.02 = 5588.01 over 50 frames.
+viet_7_35 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_36, best cost 116.613 + 9871.06 = 9987.67 over 101 frames.
+viet_7_36 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_37, best cost 123.29 + 5426.91 = 5550.2 over 52 frames.
+viet_7_37 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_38, best cost 99.2559 + 4824.63 = 4923.88 over 45 frames.
+viet_7_38 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_39, best cost 134.485 + 9765.54 = 9900.03 over 95 frames.
+viet_7_39 zero 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_4, best cost 108.538 + 5425.67 = 5534.2 over 52 frames.
+viet_7_4 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_40, best cost 120.487 + 10665 = 10785.5 over 107 frames.
+viet_7_40 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_41, best cost 136.501 + 6885.79 = 7022.29 over 64 frames.
+viet_7_41 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_42, best cost 104.072 + 5141.01 = 5245.08 over 47 frames.
+viet_7_42 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_43, best cost 162.082 + 5576.72 = 5738.81 over 53 frames.
+viet_7_43 five one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_44, best cost 120.956 + 5346.5 = 5467.45 over 51 frames.
+viet_7_44 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_45, best cost 107.266 + 4940.6 = 5047.87 over 46 frames.
+viet_7_45 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_46, best cost 165.055 + 12766.1 = 12931.1 over 120 frames.
+viet_7_46 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_47, best cost 107.19 + 5159.92 = 5267.11 over 48 frames.
+viet_7_47 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_48, best cost 121.581 + 5236.41 = 5357.99 over 48 frames.
+viet_7_48 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_49, best cost 104.662 + 5245.6 = 5350.26 over 49 frames.
+viet_7_49 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_5, best cost 110.994 + 5214.45 = 5325.44 over 49 frames.
+viet_7_5 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_6, best cost 108.687 + 5693.64 = 5802.33 over 52 frames.
+viet_7_6 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_7, best cost 156.813 + 11260.7 = 11417.5 over 119 frames.
+viet_7_7 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_8, best cost 120.329 + 5557.34 = 5677.67 over 54 frames.
+viet_7_8 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_7_9, best cost 129.009 + 6111.24 = 6240.25 over 58 frames.
+viet_7_9 seven 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_0, best cost 115.481 + 4043.28 = 4158.76 over 39 frames.
+viet_8_0 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_1, best cost 113.879 + 4829.06 = 4942.94 over 45 frames.
+viet_8_1 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_10, best cost 115.173 + 4673.09 = 4788.27 over 43 frames.
+viet_8_10 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_11, best cost 113.672 + 5063.71 = 5177.38 over 47 frames.
+viet_8_11 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_12, best cost 116.652 + 4849.76 = 4966.41 over 45 frames.
+viet_8_12 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_13, best cost 112.373 + 4980.82 = 5093.2 over 46 frames.
+viet_8_13 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_14, best cost 177.4 + 17648.2 = 17825.6 over 184 frames.
+viet_8_14 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_15, best cost 170.268 + 24950.6 = 25120.8 over 257 frames.
+viet_8_15 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_16, best cost 168.39 + 25292 = 25460.4 over 268 frames.
+viet_8_16 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_17, best cost 83.1815 + 4446.99 = 4530.17 over 41 frames.
+viet_8_17 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_18, best cost 54.7238 + 9608.89 = 9663.61 over 93 frames.
+viet_8_18 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_19, best cost 118.755 + 5382.33 = 5501.08 over 49 frames.
+viet_8_19 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_2, best cost 121.149 + 7427.61 = 7548.76 over 74 frames.
+viet_8_2 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_20, best cost 118.796 + 4891.29 = 5010.09 over 45 frames.
+viet_8_20 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_21, best cost 110.205 + 5925.58 = 6035.79 over 57 frames.
+viet_8_21 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_22, best cost 113.725 + 5074.35 = 5188.08 over 45 frames.
+viet_8_22 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_23, best cost 114.809 + 5279.9 = 5394.71 over 47 frames.
+viet_8_23 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_24, best cost 46.0558 + 5760.63 = 5806.69 over 53 frames.
+viet_8_24 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_25, best cost 119.204 + 5448.84 = 5568.05 over 50 frames.
+viet_8_25 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_26, best cost 83.4454 + 5239.91 = 5323.36 over 50 frames.
+viet_8_26 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_27, best cost 113.472 + 5199.9 = 5313.37 over 48 frames.
+viet_8_27 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_28, best cost 118.781 + 10562.2 = 10681 over 108 frames.
+viet_8_28 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_29, best cost 115.207 + 4938.66 = 5053.87 over 47 frames.
+viet_8_29 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_3, best cost 46.6065 + 5637.86 = 5684.46 over 52 frames.
+viet_8_3 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_30, best cost 83.8835 + 5083.07 = 5166.96 over 48 frames.
+viet_8_30 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_31, best cost 82.4585 + 4607.54 = 4690 over 44 frames.
+viet_8_31 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_32, best cost 108.534 + 5134.96 = 5243.5 over 46 frames.
+viet_8_32 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_33, best cost 115.329 + 5657.38 = 5772.7 over 53 frames.
+viet_8_33 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_34, best cost 123.643 + 7374.15 = 7497.8 over 71 frames.
+viet_8_34 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_35, best cost 118.978 + 5616.06 = 5735.04 over 52 frames.
+viet_8_35 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_36, best cost 46.6025 + 6043.97 = 6090.57 over 56 frames.
+viet_8_36 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_37, best cost 77.279 + 18699.1 = 18776.4 over 196 frames.
+viet_8_37 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_38, best cost 121.392 + 5228.79 = 5350.18 over 49 frames.
+viet_8_38 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_39, best cost 139.486 + 10364.5 = 10503.9 over 105 frames.
+viet_8_39 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_4, best cost 120.194 + 4767.88 = 4888.08 over 45 frames.
+viet_8_4 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_40, best cost 119.225 + 5307.6 = 5426.83 over 49 frames.
+viet_8_40 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_41, best cost 44.4115 + 5100.06 = 5144.47 over 45 frames.
+viet_8_41 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_42, best cost 78.8594 + 2159.25 = 2238.11 over 21 frames.
+viet_8_42 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_43, best cost 115.483 + 6109.2 = 6224.69 over 56 frames.
+viet_8_43 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_44, best cost 120.323 + 4451.72 = 4572.04 over 41 frames.
+viet_8_44 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_45, best cost 43.9219 + 5254.49 = 5298.41 over 48 frames.
+viet_8_45 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_46, best cost 72.111 + 21506.1 = 21578.2 over 218 frames.
+viet_8_46 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_47, best cost 120.224 + 5105.37 = 5225.59 over 48 frames.
+viet_8_47 zero 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_48, best cost 115.867 + 5133.05 = 5248.92 over 47 frames.
+viet_8_48 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_49, best cost 116.811 + 5172.33 = 5289.14 over 48 frames.
+viet_8_49 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_5, best cost 119.177 + 5334.83 = 5454.01 over 49 frames.
+viet_8_5 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_6, best cost 117.542 + 6256.7 = 6374.24 over 61 frames.
+viet_8_6 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_7, best cost 44.4973 + 4827.86 = 4872.36 over 44 frames.
+viet_8_7 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_8, best cost 111.33 + 4182.76 = 4294.09 over 38 frames.
+viet_8_8 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_8_9, best cost 117.831 + 5308.23 = 5426.06 over 50 frames.
+viet_8_9 three 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_0, best cost 175.399 + 10866.9 = 11042.3 over 109 frames.
+viet_9_0 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_1, best cost 121.397 + 6001.19 = 6122.59 over 54 frames.
+viet_9_1 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_10, best cost 124 + 6239.72 = 6363.72 over 60 frames.
+viet_9_10 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_11, best cost 119.533 + 8790.96 = 8910.5 over 84 frames.
+viet_9_11 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_12, best cost 210.416 + 18331.6 = 18542 over 195 frames.
+viet_9_12 five two 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_13, best cost 128.984 + 8017.01 = 8145.99 over 79 frames.
+viet_9_13 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_14, best cost 112.263 + 5079.82 = 5192.08 over 49 frames.
+viet_9_14 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_15, best cost 114.547 + 5588.58 = 5703.12 over 55 frames.
+viet_9_15 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_16, best cost 111.112 + 4864.41 = 4975.52 over 47 frames.
+viet_9_16 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_17, best cost 125.204 + 5988.29 = 6113.49 over 57 frames.
+viet_9_17 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_18, best cost 123.872 + 6174.58 = 6298.45 over 58 frames.
+viet_9_18 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_19, best cost 124.388 + 6120.92 = 6245.31 over 59 frames.
+viet_9_19 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_2, best cost 123.418 + 6240.46 = 6363.87 over 58 frames.
+viet_9_2 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_20, best cost 123.482 + 6643.37 = 6766.85 over 60 frames.
+viet_9_20 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_21, best cost 221.668 + 17616.3 = 17838 over 177 frames.
+viet_9_21 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_22, best cost 114.837 + 6346.3 = 6461.13 over 61 frames.
+viet_9_22 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_23, best cost 126.816 + 6529.69 = 6656.51 over 63 frames.
+viet_9_23 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_24, best cost 113.359 + 5465.42 = 5578.78 over 53 frames.
+viet_9_24 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_25, best cost 125.505 + 6665.35 = 6790.86 over 63 frames.
+viet_9_25 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_26, best cost 121.839 + 6039.92 = 6161.76 over 58 frames.
+viet_9_26 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_27, best cost 124.311 + 6716.36 = 6840.68 over 64 frames.
+viet_9_27 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_28, best cost 125.003 + 5933.42 = 6058.42 over 57 frames.
+viet_9_28 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_29, best cost 121.437 + 5622.72 = 5744.15 over 52 frames.
+viet_9_29 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_3, best cost 122.416 + 6482.11 = 6604.52 over 61 frames.
+viet_9_3 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_30, best cost 125.684 + 6006.62 = 6132.31 over 58 frames.
+viet_9_30 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_31, best cost 171.829 + 12729.1 = 12901 over 120 frames.
+viet_9_31 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_32, best cost 108.622 + 4623.33 = 4731.95 over 43 frames.
+viet_9_32 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_33, best cost 122.627 + 6024.29 = 6146.92 over 57 frames.
+viet_9_33 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_34, best cost 111.021 + 5618.14 = 5729.16 over 54 frames.
+viet_9_34 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_35, best cost 135.557 + 13264.9 = 13400.4 over 135 frames.
+viet_9_35 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_36, best cost 126.613 + 6545.49 = 6672.11 over 65 frames.
+viet_9_36 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_37, best cost 126.025 + 6331.69 = 6457.72 over 62 frames.
+viet_9_37 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_38, best cost 114.384 + 6104.24 = 6218.62 over 58 frames.
+viet_9_38 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_39, best cost 110.908 + 5498.85 = 5609.76 over 50 frames.
+viet_9_39 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_4, best cost 125.709 + 6569.6 = 6695.3 over 63 frames.
+viet_9_4 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_40, best cost 169.402 + 6427.64 = 6597.04 over 61 frames.
+viet_9_40 five two 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_41, best cost 110.238 + 5123.83 = 5234.07 over 48 frames.
+viet_9_41 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_42, best cost 123.377 + 6428.4 = 6551.78 over 62 frames.
+viet_9_42 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_43, best cost 156.588 + 14717.8 = 14874.3 over 157 frames.
+viet_9_43 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_44, best cost 112.288 + 5887.93 = 6000.22 over 55 frames.
+viet_9_44 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_45, best cost 125.502 + 6709.4 = 6834.9 over 65 frames.
+viet_9_45 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_46, best cost 109.724 + 6190.99 = 6300.71 over 60 frames.
+viet_9_46 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_47, best cost 104.376 + 4635.93 = 4740.31 over 44 frames.
+viet_9_47 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_48, best cost 106.997 + 5439.12 = 5546.12 over 51 frames.
+viet_9_48 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_49, best cost 125.612 + 6420.78 = 6546.4 over 62 frames.
+viet_9_49 one 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_5, best cost 109.119 + 5950.72 = 6059.84 over 55 frames.
+viet_9_5 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_6, best cost 119.867 + 6021.57 = 6141.44 over 56 frames.
+viet_9_6 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_7, best cost 123.411 + 6031.34 = 6154.75 over 58 frames.
+viet_9_7 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_8, best cost 128.799 + 9068.41 = 9197.21 over 86 frames.
+viet_9_8 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:99) For utterance viet_9_9, best cost 110.483 + 5126.16 = 5236.64 over 48 frames.
+viet_9_9 five 
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:124) Overall cost per frame is 106.457 = 1.46225 [graph] + 104.995 [acoustic] over 13556 frames.
+LOG (lattice-best-path[5.5.671~1-e5a5a]:main():lattice-best-path.cc:128) Done 200 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Apr 11 03:53:30 PDT 2020, elapsed time 0 seconds

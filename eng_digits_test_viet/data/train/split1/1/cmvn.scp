@@ -1,0 +1,4 @@
+jackson /home/viet/kaldi/eng_digits_test_viet/mfcc/cmvn_train.ark:8
+nicolas /home/viet/kaldi/eng_digits_test_viet/mfcc/cmvn_train.ark:255
+theo /home/viet/kaldi/eng_digits_test_viet/mfcc/cmvn_train.ark:499
+viet /home/viet/kaldi/eng_digits_test_viet/mfcc/cmvn_train.ark:743

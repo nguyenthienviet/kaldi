@@ -1,0 +1,16 @@
+<eps> 0
+!SIL 1
+<UNK> 2
+ba 3
+bay 4
+bon 5
+chin 6
+hai 7
+khong 8
+mot 9
+nam 10
+sau 11
+tam 12
+#0 13
+<s> 14
+</s> 15

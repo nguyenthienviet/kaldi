@@ -1,0 +1,229 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/viet/kaldi/eng_digits_test_viet/mfcc/raw_mfcc_test.1.ark,/home/viet/kaldi/eng_digits_test_viet/mfcc/raw_mfcc_test.1.scp 
+# Started at Sat Apr 11 03:52:55 PDT 2020
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/viet/kaldi/eng_digits_test_viet/mfcc/raw_mfcc_test.1.ark,/home/viet/kaldi/eng_digits_test_viet/mfcc/raw_mfcc_test.1.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_0
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_1
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_10
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_11
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_12
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_13
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_14
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_15
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_16
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_17
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_18
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_19
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_2
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_20
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_21
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_22
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_23
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_24
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_25
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_26
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_27
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_28
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_29
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_3
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_30
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_31
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_32
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_33
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_34
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_35
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_36
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_37
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_38
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_39
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_4
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_40
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_41
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_42
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_43
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_44
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_45
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_46
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_47
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_48
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_49
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_5
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_6
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_7
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_8
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_6_9
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_0
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_1
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_10
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_11
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_12
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_13
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_14
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_15
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_16
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_17
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_18
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_19
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_2
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_20
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_21
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_22
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_23
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_24
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_25
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_26
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_27
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_28
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_29
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_3
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_30
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_31
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_32
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_33
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_34
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_35
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_36
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_37
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_38
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_39
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_4
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_40
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_41
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_42
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_43
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_44
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_45
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_46
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_47
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_48
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_49
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_5
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_6
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_7
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_8
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_7_9
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_0
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_1
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_10
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_11
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_12
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_13
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_14
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_15
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_16
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_17
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_18
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_19
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_2
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_20
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_21
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_22
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_23
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_24
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_25
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_26
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_27
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_28
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_29
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_3
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_30
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_31
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_32
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_33
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_34
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 130 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_35
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_36
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_37
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_38
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_39
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_4
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_40
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_41
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_42
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_43
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 140 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_44
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_45
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_46
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_47
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_48
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_49
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_5
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_6
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_7
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_8
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_8_9
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_0
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_1
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_10
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_11
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_12
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_13
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_14
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_15
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_16
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 160 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_17
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_18
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_19
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_2
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_20
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_21
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_22
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_23
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_24
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_25
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 170 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_26
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_27
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_28
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_29
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_3
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_30
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_31
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_32
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_33
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_34
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 180 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_35
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_36
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_37
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_38
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_39
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_4
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_40
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_41
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_42
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_43
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 190 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_44
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_45
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_46
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_47
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_48
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_49
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_5
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_6
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_7
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_8
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:181) Processed 200 utterances
+VLOG[2] (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:182) Processed features for key viet_9_9
+LOG (compute-mfcc-feats[5.5.671~1-e5a5a]:main():compute-mfcc-feats.cc:185)  Done 200 out of 200 utterances.
+LOG (copy-feats[5.5.671~1-e5a5a]:main():copy-feats.cc:143) Copied 200 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Apr 11 03:52:55 PDT 2020, elapsed time 0 seconds

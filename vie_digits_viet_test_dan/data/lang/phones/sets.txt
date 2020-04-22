@@ -1,0 +1,25 @@
+sil sil_B sil_E sil_I sil_S
+spn spn_B spn_E spn_I spn_S
+b_B b_E b_I b_S
+a1_B a1_E a1_I a1_S
+aw4_B aw4_E aw4_I aw4_S
+iz4_B iz4_E iz4_I iz4_S
+oo3_B oo3_E oo3_I oo3_S
+nc_B nc_E nc_I nc_S
+ch_B ch_E ch_I ch_S
+i3_B i3_E i3_I i3_S
+h_B h_E h_I h_S
+iz1_B iz1_E iz1_I iz1_S
+kh_B kh_E kh_I kh_S
+oo1_B oo1_E oo1_I oo1_S
+ngz_B ngz_E ngz_I ngz_S
+m_B m_E m_I m_S
+oo6_B oo6_E oo6_I oo6_S
+tc_B tc_E tc_I tc_S
+n_B n_E n_I n_S
+aw1_B aw1_E aw1_I aw1_S
+mc_B mc_E mc_I mc_S
+x_B x_E x_I x_S
+a3_B a3_E a3_I a3_S
+uz3_B uz3_E uz3_I uz3_S
+t_B t_E t_I t_S
